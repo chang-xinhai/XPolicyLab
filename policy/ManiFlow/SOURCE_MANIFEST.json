@@ -1,0 +1,805 @@
+{
+  "repository": "https://github.com/geyan21/ManiFlow_Policy.git",
+  "commit": "ef2f116f1f90163ed36e657b8c5503740bb468af",
+  "transform": "none",
+  "files": [
+    {
+      "source": "ManiFlow/maniflow/common/checkpoint_util.py",
+      "path": "source/maniflow/common/checkpoint_util.py",
+      "source_sha256": "2640d4ceda252ee926b13b9ce6c828e5df2e36a9d36637a6a80a7bbe11dab543",
+      "sha256": "2640d4ceda252ee926b13b9ce6c828e5df2e36a9d36637a6a80a7bbe11dab543"
+    },
+    {
+      "source": "ManiFlow/maniflow/common/logger_util.py",
+      "path": "source/maniflow/common/logger_util.py",
+      "source_sha256": "730d8d7f6a628aab68a740ea3ac0ad3fe0314bdd1227d2216676502f87e4165d",
+      "sha256": "730d8d7f6a628aab68a740ea3ac0ad3fe0314bdd1227d2216676502f87e4165d"
+    },
+    {
+      "source": "ManiFlow/maniflow/common/model_util.py",
+      "path": "source/maniflow/common/model_util.py",
+      "source_sha256": "ebf78ed573b7a832047cad2d444fb320e46cb9f15a02e7a424290186733a1427",
+      "sha256": "ebf78ed573b7a832047cad2d444fb320e46cb9f15a02e7a424290186733a1427"
+    },
+    {
+      "source": "ManiFlow/maniflow/common/pytorch_util.py",
+      "path": "source/maniflow/common/pytorch_util.py",
+      "source_sha256": "439901ac2b549e5eaab0f152053bd4bf1147f3dd0ee6c8aa69c1f1d0a8f844fe",
+      "sha256": "439901ac2b549e5eaab0f152053bd4bf1147f3dd0ee6c8aa69c1f1d0a8f844fe"
+    },
+    {
+      "source": "ManiFlow/maniflow/common/replay_buffer.py",
+      "path": "source/maniflow/common/replay_buffer.py",
+      "source_sha256": "ab318dd086dcf52aafbea1e18403c01c9674451359c37996274c221258fbeffc",
+      "sha256": "ab318dd086dcf52aafbea1e18403c01c9674451359c37996274c221258fbeffc"
+    },
+    {
+      "source": "ManiFlow/maniflow/common/sampler.py",
+      "path": "source/maniflow/common/sampler.py",
+      "source_sha256": "25f92a236cd1676696f9e0390788fe79af64867355b1dcacf26a01fc696d7a6c",
+      "sha256": "25f92a236cd1676696f9e0390788fe79af64867355b1dcacf26a01fc696d7a6c"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/dp.yaml",
+      "path": "source/maniflow/config/dp.yaml",
+      "source_sha256": "87c1eb2d795a52c92944e4cd3978991957c7c02011cc3fcd1fbc8aa5bc186cf2",
+      "sha256": "87c1eb2d795a52c92944e4cd3978991957c7c02011cc3fcd1fbc8aa5bc186cf2"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/dp3.yaml",
+      "path": "source/maniflow/config/dp3.yaml",
+      "source_sha256": "e55c89eddf0f4ffb9b0a2b6ffbb39edddcf1725f04169dac75049d9b0fbe0801",
+      "sha256": "e55c89eddf0f4ffb9b0a2b6ffbb39edddcf1725f04169dac75049d9b0fbe0801"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/dp3_robotwin.yaml",
+      "path": "source/maniflow/config/dp3_robotwin.yaml",
+      "source_sha256": "699bd6461f5a991cd27fd5cbe636f98c45e8c6a36a6e2a69152ceda6b27dfa67",
+      "sha256": "699bd6461f5a991cd27fd5cbe636f98c45e8c6a36a6e2a69152ceda6b27dfa67"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/dp_robotwin.yaml",
+      "path": "source/maniflow/config/dp_robotwin.yaml",
+      "source_sha256": "4fc2f1372308d7ca4750c2e034a898a9af5d88e92c33e71518a97fac4bf655f5",
+      "sha256": "4fc2f1372308d7ca4750c2e034a898a9af5d88e92c33e71518a97fac4bf655f5"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/maniflow_image_timm_policy.yaml",
+      "path": "source/maniflow/config/maniflow_image_timm_policy.yaml",
+      "source_sha256": "9bde72f24833a32e967b1c9f677aa32a7ac0e72265006cdd9cd3fbccc1a326a8",
+      "sha256": "9bde72f24833a32e967b1c9f677aa32a7ac0e72265006cdd9cd3fbccc1a326a8"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/maniflow_image_timm_policy_dex.yaml",
+      "path": "source/maniflow/config/maniflow_image_timm_policy_dex.yaml",
+      "source_sha256": "4c51724b8b2b11e37c14bc5a385e083c0b1e4fb4e48b823ba41ae60503b53d5a",
+      "sha256": "4c51724b8b2b11e37c14bc5a385e083c0b1e4fb4e48b823ba41ae60503b53d5a"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/maniflow_image_timm_policy_robotwin.yaml",
+      "path": "source/maniflow/config/maniflow_image_timm_policy_robotwin.yaml",
+      "source_sha256": "93dbcc3a14474a5ef46dc72d40dbba0afc36ddd5f3fb022d8ab3c1963bf4fcd1",
+      "sha256": "93dbcc3a14474a5ef46dc72d40dbba0afc36ddd5f3fb022d8ab3c1963bf4fcd1"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/maniflow_image_transformer_policy.yaml",
+      "path": "source/maniflow/config/maniflow_image_transformer_policy.yaml",
+      "source_sha256": "bb4d3715352a792fffa90fb267ccc41c45e4c877f8dcc86df6f805ed7aeca55a",
+      "sha256": "bb4d3715352a792fffa90fb267ccc41c45e4c877f8dcc86df6f805ed7aeca55a"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/maniflow_image_transformer_policy_robotwin.yaml",
+      "path": "source/maniflow/config/maniflow_image_transformer_policy_robotwin.yaml",
+      "source_sha256": "3f776ca0709766c139d104446c9f3e1edba7108303ed1be0baaf65b1b50c1218",
+      "sha256": "3f776ca0709766c139d104446c9f3e1edba7108303ed1be0baaf65b1b50c1218"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/maniflow_pointcloud_policy.yaml",
+      "path": "source/maniflow/config/maniflow_pointcloud_policy.yaml",
+      "source_sha256": "78e62bf81d02958727e03e899f8a1e92509bdecea3f2d9da62b11827aacfd8f8",
+      "sha256": "78e62bf81d02958727e03e899f8a1e92509bdecea3f2d9da62b11827aacfd8f8"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/maniflow_pointcloud_policy_dex.yaml",
+      "path": "source/maniflow/config/maniflow_pointcloud_policy_dex.yaml",
+      "source_sha256": "ade50acfeff6925ecdf10084f4e7400b72e61d78e778874ed66189f49fd8c07d",
+      "sha256": "ade50acfeff6925ecdf10084f4e7400b72e61d78e778874ed66189f49fd8c07d"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/maniflow_pointcloud_policy_metaworld.yaml",
+      "path": "source/maniflow/config/maniflow_pointcloud_policy_metaworld.yaml",
+      "source_sha256": "d20caa76dda04acca902b5398c44778942769aae5516095ec1b256ec2211b615",
+      "sha256": "d20caa76dda04acca902b5398c44778942769aae5516095ec1b256ec2211b615"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/maniflow_pointcloud_policy_robotwin.yaml",
+      "path": "source/maniflow/config/maniflow_pointcloud_policy_robotwin.yaml",
+      "source_sha256": "4f8439ef259df36e6b9224906b6de18a61f221285a3288449bb7f56cc82ddd64",
+      "sha256": "4f8439ef259df36e6b9224906b6de18a61f221285a3288449bb7f56cc82ddd64"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/maniflow_pointcloud_policy_robotwin2.yaml",
+      "path": "source/maniflow/config/maniflow_pointcloud_policy_robotwin2.yaml",
+      "source_sha256": "e9618b7b643fd1b13ad0ba62fe7dfce3fdbac62d4c956daae99329b2cf6cb1f1",
+      "sha256": "e9618b7b643fd1b13ad0ba62fe7dfce3fdbac62d4c956daae99329b2cf6cb1f1"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_env/_camera_config.yml",
+      "path": "source/maniflow/config/robotwin_env/_camera_config.yml",
+      "source_sha256": "f0bfa2026cb2e87f923f77a8fa0c0e4ebc9d99c1681c6895771a73c781984c90",
+      "sha256": "f0bfa2026cb2e87f923f77a8fa0c0e4ebc9d99c1681c6895771a73c781984c90"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_env/block_hammer_beat.yaml",
+      "path": "source/maniflow/config/robotwin_env/block_hammer_beat.yaml",
+      "source_sha256": "81c550ee92c1d4a45273be12c38b44d1880d317c305eed22a02f9ff294e11390",
+      "sha256": "81c550ee92c1d4a45273be12c38b44d1880d317c305eed22a02f9ff294e11390"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_env/container_place.yaml",
+      "path": "source/maniflow/config/robotwin_env/container_place.yaml",
+      "source_sha256": "b5ef6eeee8e76061f6e31ff8676428b09e363b0578f1536067360662842cce86",
+      "sha256": "b5ef6eeee8e76061f6e31ff8676428b09e363b0578f1536067360662842cce86"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_env/diverse_bottles_pick.yaml",
+      "path": "source/maniflow/config/robotwin_env/diverse_bottles_pick.yaml",
+      "source_sha256": "676d9b4e21f1baeec7b0bf4663fd96f52dc06e24dd96fd35f78346a1ac3fbaa4",
+      "sha256": "676d9b4e21f1baeec7b0bf4663fd96f52dc06e24dd96fd35f78346a1ac3fbaa4"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_env/dual_bottles_pick_hard.yaml",
+      "path": "source/maniflow/config/robotwin_env/dual_bottles_pick_hard.yaml",
+      "source_sha256": "695c9960af63e1ae018bf14ae729286831bb75a0d7ae3be84c8ba9929cd678be",
+      "sha256": "695c9960af63e1ae018bf14ae729286831bb75a0d7ae3be84c8ba9929cd678be"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_env/empty_cup_place.yaml",
+      "path": "source/maniflow/config/robotwin_env/empty_cup_place.yaml",
+      "source_sha256": "1763969bfc191769d4915c2dff35f86725f695e51bf254ceaaa285a8a1bb7c2f",
+      "sha256": "1763969bfc191769d4915c2dff35f86725f695e51bf254ceaaa285a8a1bb7c2f"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_env/pick_apple_messy.yaml",
+      "path": "source/maniflow/config/robotwin_env/pick_apple_messy.yaml",
+      "source_sha256": "9d2f7b731c05b3c1083737b4532837ab81b95c2955609c2d461596fa6fd3f2fc",
+      "sha256": "9d2f7b731c05b3c1083737b4532837ab81b95c2955609c2d461596fa6fd3f2fc"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_env/shoe_place.yaml",
+      "path": "source/maniflow/config/robotwin_env/shoe_place.yaml",
+      "source_sha256": "485a3d12f788048197696fddb859f03e7ad56ead8dad6e3318d96abe97b0152c",
+      "sha256": "485a3d12f788048197696fddb859f03e7ad56ead8dad6e3318d96abe97b0152c"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_task/block_hammer_beat_image.yaml",
+      "path": "source/maniflow/config/robotwin_task/block_hammer_beat_image.yaml",
+      "source_sha256": "b73f105673b6b225e50a4ccf3671eab2144ef140ae4827d440c472d6aa23042c",
+      "sha256": "b73f105673b6b225e50a4ccf3671eab2144ef140ae4827d440c472d6aa23042c"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_task/block_hammer_beat_pointcloud.yaml",
+      "path": "source/maniflow/config/robotwin_task/block_hammer_beat_pointcloud.yaml",
+      "source_sha256": "ce6f9e92bb2b3ddadddf67d185572570d01bdce50d1f39adecb66e30e2f4f208",
+      "sha256": "ce6f9e92bb2b3ddadddf67d185572570d01bdce50d1f39adecb66e30e2f4f208"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_task/diverse_bottles_pick_image.yaml",
+      "path": "source/maniflow/config/robotwin_task/diverse_bottles_pick_image.yaml",
+      "source_sha256": "4859cf61c378c48ee3ca6b53c8bac5709bc2f4a16bc914b5736d902ba70e00c6",
+      "sha256": "4859cf61c378c48ee3ca6b53c8bac5709bc2f4a16bc914b5736d902ba70e00c6"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_task/diverse_bottles_pick_pointcloud.yaml",
+      "path": "source/maniflow/config/robotwin_task/diverse_bottles_pick_pointcloud.yaml",
+      "source_sha256": "b7138312f1068e578885eed13956a5c7fa0b82e8b15ed5b26628de52b7383d1d",
+      "sha256": "b7138312f1068e578885eed13956a5c7fa0b82e8b15ed5b26628de52b7383d1d"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_task/dual_bottles_pick_hard_image.yaml",
+      "path": "source/maniflow/config/robotwin_task/dual_bottles_pick_hard_image.yaml",
+      "source_sha256": "6cbd014f52b4c10e97af28b70880d126b2b591c196cf45da2c929e094444f13d",
+      "sha256": "6cbd014f52b4c10e97af28b70880d126b2b591c196cf45da2c929e094444f13d"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_task/dual_bottles_pick_hard_pointcloud.yaml",
+      "path": "source/maniflow/config/robotwin_task/dual_bottles_pick_hard_pointcloud.yaml",
+      "source_sha256": "f6702c98356bb7c2d20a9bd52b0c2fb4d7e22db7c62e49aa093f99c21c5874fe",
+      "sha256": "f6702c98356bb7c2d20a9bd52b0c2fb4d7e22db7c62e49aa093f99c21c5874fe"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_task/empty_cup_place_image.yaml",
+      "path": "source/maniflow/config/robotwin_task/empty_cup_place_image.yaml",
+      "source_sha256": "dfed94acd5caac90a10849825f48321aaaf7de8e267a39d1959f4e4dd5b4a743",
+      "sha256": "dfed94acd5caac90a10849825f48321aaaf7de8e267a39d1959f4e4dd5b4a743"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_task/empty_cup_place_pointcloud.yaml",
+      "path": "source/maniflow/config/robotwin_task/empty_cup_place_pointcloud.yaml",
+      "source_sha256": "767a022b768e0b1ee11477610dd8694c67e65065acce9fa271fe4453fbb9cea8",
+      "sha256": "767a022b768e0b1ee11477610dd8694c67e65065acce9fa271fe4453fbb9cea8"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_task/pick_apple_messy_image.yaml",
+      "path": "source/maniflow/config/robotwin_task/pick_apple_messy_image.yaml",
+      "source_sha256": "6aba1fcd760b0479b0d7124e4bb87688c99a2a6ddaacf474ec7ac53e2ea90ed7",
+      "sha256": "6aba1fcd760b0479b0d7124e4bb87688c99a2a6ddaacf474ec7ac53e2ea90ed7"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_task/pick_apple_messy_pointcloud.yaml",
+      "path": "source/maniflow/config/robotwin_task/pick_apple_messy_pointcloud.yaml",
+      "source_sha256": "2a0535364a9e6d1102dc56a8da32d71b2e409a16f711a977660750141898437f",
+      "sha256": "2a0535364a9e6d1102dc56a8da32d71b2e409a16f711a977660750141898437f"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_task/shoe_place_image.yaml",
+      "path": "source/maniflow/config/robotwin_task/shoe_place_image.yaml",
+      "source_sha256": "206fabf878a968db3ac132cfb50566b4215c9cbef4d55fff61fc4a045fc75d2e",
+      "sha256": "206fabf878a968db3ac132cfb50566b4215c9cbef4d55fff61fc4a045fc75d2e"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/robotwin_task/shoe_place_pointcloud.yaml",
+      "path": "source/maniflow/config/robotwin_task/shoe_place_pointcloud.yaml",
+      "source_sha256": "09753479336da305f9f4d1dfde10d333818cdbabbe2c55dd43d70ab02d2e0413",
+      "sha256": "09753479336da305f9f4d1dfde10d333818cdbabbe2c55dd43d70ab02d2e0413"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/adroit_door_image.yaml",
+      "path": "source/maniflow/config/task/adroit_door_image.yaml",
+      "source_sha256": "29ca8898bb47909b8257800d695995e87a7f41d8feeb14f48167e71501df4a54",
+      "sha256": "29ca8898bb47909b8257800d695995e87a7f41d8feeb14f48167e71501df4a54"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/adroit_door_pointcloud.yaml",
+      "path": "source/maniflow/config/task/adroit_door_pointcloud.yaml",
+      "source_sha256": "df9557d1314358ecc5b976ecc345d501ed3e79f2a157fb1e6290ab88952223ff",
+      "sha256": "df9557d1314358ecc5b976ecc345d501ed3e79f2a157fb1e6290ab88952223ff"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/adroit_hammer_image.yaml",
+      "path": "source/maniflow/config/task/adroit_hammer_image.yaml",
+      "source_sha256": "33b89f2454ed9fa6f59e0dc6c6c845aba5a41c4e709ad12ef24a9ffbd920a2a8",
+      "sha256": "33b89f2454ed9fa6f59e0dc6c6c845aba5a41c4e709ad12ef24a9ffbd920a2a8"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/adroit_hammer_pointcloud.yaml",
+      "path": "source/maniflow/config/task/adroit_hammer_pointcloud.yaml",
+      "source_sha256": "f0389820ebcbde1a56b1564d5edcf1d5ac543d51733d8836685fc3f8772b1314",
+      "sha256": "f0389820ebcbde1a56b1564d5edcf1d5ac543d51733d8836685fc3f8772b1314"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/adroit_pen_image.yaml",
+      "path": "source/maniflow/config/task/adroit_pen_image.yaml",
+      "source_sha256": "94c83cb63763b8d12f20e5235e67fc5e2cc33f38e0422d5ddeaae9001170076e",
+      "sha256": "94c83cb63763b8d12f20e5235e67fc5e2cc33f38e0422d5ddeaae9001170076e"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/adroit_pen_pointcloud.yaml",
+      "path": "source/maniflow/config/task/adroit_pen_pointcloud.yaml",
+      "source_sha256": "68fbcd933d46eaa52e3b2bd2a6986d80dd8c0155193c48c57a0df2996bd8489b",
+      "sha256": "68fbcd933d46eaa52e3b2bd2a6986d80dd8c0155193c48c57a0df2996bd8489b"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/dexart_bucket_image.yaml",
+      "path": "source/maniflow/config/task/dexart_bucket_image.yaml",
+      "source_sha256": "13f5cac24d30932cd67a3c7ad1a564ba631858ab25563259ab7e5f16dae7d054",
+      "sha256": "13f5cac24d30932cd67a3c7ad1a564ba631858ab25563259ab7e5f16dae7d054"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/dexart_bucket_pointcloud.yaml",
+      "path": "source/maniflow/config/task/dexart_bucket_pointcloud.yaml",
+      "source_sha256": "96d6668c83d56679aad84a0b4f360d981e80496a256900d628db9d3318ae8996",
+      "sha256": "96d6668c83d56679aad84a0b4f360d981e80496a256900d628db9d3318ae8996"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/dexart_faucet_image.yaml",
+      "path": "source/maniflow/config/task/dexart_faucet_image.yaml",
+      "source_sha256": "2d06fe5685ffd2e6cbda3e6503d8ed1e505f546191a128479ebd8a0c7aee09ab",
+      "sha256": "2d06fe5685ffd2e6cbda3e6503d8ed1e505f546191a128479ebd8a0c7aee09ab"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/dexart_faucet_pointcloud.yaml",
+      "path": "source/maniflow/config/task/dexart_faucet_pointcloud.yaml",
+      "source_sha256": "55d268b859fce91bb1eb27d758f73d54ff1b7df3e96eeafe514b534dacf30975",
+      "sha256": "55d268b859fce91bb1eb27d758f73d54ff1b7df3e96eeafe514b534dacf30975"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/dexart_laptop_image.yaml",
+      "path": "source/maniflow/config/task/dexart_laptop_image.yaml",
+      "source_sha256": "35fdcf60c1c322974f299be240ba60bdf43baa87469cbd73b912012d442fc2ff",
+      "sha256": "35fdcf60c1c322974f299be240ba60bdf43baa87469cbd73b912012d442fc2ff"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/dexart_laptop_pointcloud.yaml",
+      "path": "source/maniflow/config/task/dexart_laptop_pointcloud.yaml",
+      "source_sha256": "2011679d72bb96db51b9242db1977627131d1d9293e14cdd745ec58d4c08826e",
+      "sha256": "2011679d72bb96db51b9242db1977627131d1d9293e14cdd745ec58d4c08826e"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/dexart_toilet_image.yaml",
+      "path": "source/maniflow/config/task/dexart_toilet_image.yaml",
+      "source_sha256": "7f849b601bc2c0ffdc8c669b7003739fbc7935687c8042b31502c1527367c729",
+      "sha256": "7f849b601bc2c0ffdc8c669b7003739fbc7935687c8042b31502c1527367c729"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/dexart_toilet_pointcloud.yaml",
+      "path": "source/maniflow/config/task/dexart_toilet_pointcloud.yaml",
+      "source_sha256": "cb9eed816f1c16a41b33d3e0d8b65de0e3c84bfa5f5686fcf0920dbfd946a54a",
+      "sha256": "cb9eed816f1c16a41b33d3e0d8b65de0e3c84bfa5f5686fcf0920dbfd946a54a"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_assembly.yaml",
+      "path": "source/maniflow/config/task/metaworld_assembly.yaml",
+      "source_sha256": "498e4df8fb2dcc7f57e12c8cd8b8be1a4858b640df3c5ede497602a585f1432c",
+      "sha256": "498e4df8fb2dcc7f57e12c8cd8b8be1a4858b640df3c5ede497602a585f1432c"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_basketball.yaml",
+      "path": "source/maniflow/config/task/metaworld_basketball.yaml",
+      "source_sha256": "d37b44a80c37c72c1733c71f2ed7aee6dd712d89ead46add51246ec52dcac551",
+      "sha256": "d37b44a80c37c72c1733c71f2ed7aee6dd712d89ead46add51246ec52dcac551"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_bin-picking.yaml",
+      "path": "source/maniflow/config/task/metaworld_bin-picking.yaml",
+      "source_sha256": "9592e472987eaf501aa81ec952bb719b3a36b9f652a96374e12e3fd791e4ddb7",
+      "sha256": "9592e472987eaf501aa81ec952bb719b3a36b9f652a96374e12e3fd791e4ddb7"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_box-close.yaml",
+      "path": "source/maniflow/config/task/metaworld_box-close.yaml",
+      "source_sha256": "40faab33373123cbbe99e3c7c54200ec3a3c416d2a76c0706d5fc38c45486565",
+      "sha256": "40faab33373123cbbe99e3c7c54200ec3a3c416d2a76c0706d5fc38c45486565"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_button-press-topdown-wall.yaml",
+      "path": "source/maniflow/config/task/metaworld_button-press-topdown-wall.yaml",
+      "source_sha256": "002c4590a29b0f89a37938dbd3c63f1b370c90176e253b402870e833ed7049fa",
+      "sha256": "002c4590a29b0f89a37938dbd3c63f1b370c90176e253b402870e833ed7049fa"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_button-press-topdown.yaml",
+      "path": "source/maniflow/config/task/metaworld_button-press-topdown.yaml",
+      "source_sha256": "6809caedda8557f48db357a80a8abe1bfa43655a470eb937ce7bde7bf234a230",
+      "sha256": "6809caedda8557f48db357a80a8abe1bfa43655a470eb937ce7bde7bf234a230"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_button-press-wall.yaml",
+      "path": "source/maniflow/config/task/metaworld_button-press-wall.yaml",
+      "source_sha256": "2014a091322a5fe0680041c91e2260e1861146e5ace6b96449c031fc85359a7b",
+      "sha256": "2014a091322a5fe0680041c91e2260e1861146e5ace6b96449c031fc85359a7b"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_button-press.yaml",
+      "path": "source/maniflow/config/task/metaworld_button-press.yaml",
+      "source_sha256": "ac7f976ea25ea0e5c7a54e9cbeb7c0a5adaa5e50511013585902ac65d43f923d",
+      "sha256": "ac7f976ea25ea0e5c7a54e9cbeb7c0a5adaa5e50511013585902ac65d43f923d"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_coffee-button.yaml",
+      "path": "source/maniflow/config/task/metaworld_coffee-button.yaml",
+      "source_sha256": "2dea2b17b296516222aa76be64d35dfd0b4bc070cde44acece6462b8f05a4608",
+      "sha256": "2dea2b17b296516222aa76be64d35dfd0b4bc070cde44acece6462b8f05a4608"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_coffee-pull.yaml",
+      "path": "source/maniflow/config/task/metaworld_coffee-pull.yaml",
+      "source_sha256": "ba21f6cfa9feecb58c4b4b53b8c9f919d656109f93e7591d84daff0ccd9f96d2",
+      "sha256": "ba21f6cfa9feecb58c4b4b53b8c9f919d656109f93e7591d84daff0ccd9f96d2"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_coffee-push.yaml",
+      "path": "source/maniflow/config/task/metaworld_coffee-push.yaml",
+      "source_sha256": "dd8deca3a53be7256360be5080db341b0d2c842b3c7eb07124b2c48ba9948fa3",
+      "sha256": "dd8deca3a53be7256360be5080db341b0d2c842b3c7eb07124b2c48ba9948fa3"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_dial-turn.yaml",
+      "path": "source/maniflow/config/task/metaworld_dial-turn.yaml",
+      "source_sha256": "35c6c8ba60d6d7883c177cfd0ca87b0622c10951bd209a8fdd0a33f2349c92e0",
+      "sha256": "35c6c8ba60d6d7883c177cfd0ca87b0622c10951bd209a8fdd0a33f2349c92e0"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_disassemble.yaml",
+      "path": "source/maniflow/config/task/metaworld_disassemble.yaml",
+      "source_sha256": "dd55ff25b51f4fcb5cea0e8b0ed5ab1a3b1a552520e07c6273d063b5f4006631",
+      "sha256": "dd55ff25b51f4fcb5cea0e8b0ed5ab1a3b1a552520e07c6273d063b5f4006631"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_door-close.yaml",
+      "path": "source/maniflow/config/task/metaworld_door-close.yaml",
+      "source_sha256": "efebb4f6dedf316902880889a99d087d425ed4371c80f28b766b6432cbc128c5",
+      "sha256": "efebb4f6dedf316902880889a99d087d425ed4371c80f28b766b6432cbc128c5"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_door-lock.yaml",
+      "path": "source/maniflow/config/task/metaworld_door-lock.yaml",
+      "source_sha256": "be9994ffac282cff88a240d62c2fcd5434760a8d4b16dcc5d43f784a5bcf3349",
+      "sha256": "be9994ffac282cff88a240d62c2fcd5434760a8d4b16dcc5d43f784a5bcf3349"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_door-open.yaml",
+      "path": "source/maniflow/config/task/metaworld_door-open.yaml",
+      "source_sha256": "98976d0f9d152a40684021260eb3509c95b991b777eb8fb4757e78ea0101858b",
+      "sha256": "98976d0f9d152a40684021260eb3509c95b991b777eb8fb4757e78ea0101858b"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_door-unlock.yaml",
+      "path": "source/maniflow/config/task/metaworld_door-unlock.yaml",
+      "source_sha256": "84ef5ebf2c8db3c20ee8549df5cb8f2f9f4526eeceab5ac62012b20c6f49eae0",
+      "sha256": "84ef5ebf2c8db3c20ee8549df5cb8f2f9f4526eeceab5ac62012b20c6f49eae0"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_drawer-close.yaml",
+      "path": "source/maniflow/config/task/metaworld_drawer-close.yaml",
+      "source_sha256": "cfc2636349f76e519810655780896174265f481914a0b8bc0ab688273a47b31a",
+      "sha256": "cfc2636349f76e519810655780896174265f481914a0b8bc0ab688273a47b31a"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_drawer-open.yaml",
+      "path": "source/maniflow/config/task/metaworld_drawer-open.yaml",
+      "source_sha256": "a3448841a69cedcf1042f792e0fe03cbee6ac5c232d087a869e14c1e39824937",
+      "sha256": "a3448841a69cedcf1042f792e0fe03cbee6ac5c232d087a869e14c1e39824937"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_faucet-close.yaml",
+      "path": "source/maniflow/config/task/metaworld_faucet-close.yaml",
+      "source_sha256": "7a69001a20af5890c30951e9af773ec1426bed97de86f1e50ad849666f554071",
+      "sha256": "7a69001a20af5890c30951e9af773ec1426bed97de86f1e50ad849666f554071"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_faucet-open.yaml",
+      "path": "source/maniflow/config/task/metaworld_faucet-open.yaml",
+      "source_sha256": "0fb17a24da78a95a5d410d5804c9594c9912d770e30258024cbed713573851d3",
+      "sha256": "0fb17a24da78a95a5d410d5804c9594c9912d770e30258024cbed713573851d3"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_hammer.yaml",
+      "path": "source/maniflow/config/task/metaworld_hammer.yaml",
+      "source_sha256": "87c1ec79eb0b7fb3a5155165bb51788a52e4696426da83bf44724364f7a41462",
+      "sha256": "87c1ec79eb0b7fb3a5155165bb51788a52e4696426da83bf44724364f7a41462"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_hand-insert.yaml",
+      "path": "source/maniflow/config/task/metaworld_hand-insert.yaml",
+      "source_sha256": "83b4827b8396e22e30ce36aecbf2f59a822af3b76bf7544f3d5c6799aea3b0f1",
+      "sha256": "83b4827b8396e22e30ce36aecbf2f59a822af3b76bf7544f3d5c6799aea3b0f1"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_handle-press-side.yaml",
+      "path": "source/maniflow/config/task/metaworld_handle-press-side.yaml",
+      "source_sha256": "92e8fe7f9c185f9eaa6c327c520d795483eac595d94ddfdfad35050d01959146",
+      "sha256": "92e8fe7f9c185f9eaa6c327c520d795483eac595d94ddfdfad35050d01959146"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_handle-press.yaml",
+      "path": "source/maniflow/config/task/metaworld_handle-press.yaml",
+      "source_sha256": "1eab03f0387a027e25221a5508e634e9f05f1d6a1c190a9b3c03ac3cafc10c46",
+      "sha256": "1eab03f0387a027e25221a5508e634e9f05f1d6a1c190a9b3c03ac3cafc10c46"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_handle-pull-side.yaml",
+      "path": "source/maniflow/config/task/metaworld_handle-pull-side.yaml",
+      "source_sha256": "13d5c516f2f86196aa61cb706d4809e3f98d201ae72b912acf538b4f6c3de61a",
+      "sha256": "13d5c516f2f86196aa61cb706d4809e3f98d201ae72b912acf538b4f6c3de61a"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_handle-pull.yaml",
+      "path": "source/maniflow/config/task/metaworld_handle-pull.yaml",
+      "source_sha256": "a51f93434ba96adc382a23605af72a1bd0b8cc0c310b06f0fabafa44ec61c382",
+      "sha256": "a51f93434ba96adc382a23605af72a1bd0b8cc0c310b06f0fabafa44ec61c382"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_lever-pull.yaml",
+      "path": "source/maniflow/config/task/metaworld_lever-pull.yaml",
+      "source_sha256": "5d2432567c851e317aa9a3f073ca0fe973a41704edea3e927cb9590ec385e0d6",
+      "sha256": "5d2432567c851e317aa9a3f073ca0fe973a41704edea3e927cb9590ec385e0d6"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_multitask.yaml",
+      "path": "source/maniflow/config/task/metaworld_multitask.yaml",
+      "source_sha256": "4c4c50d932a8574cf4d4b309e90a3bbdd54d260574fc98b408e3f2a242ac763c",
+      "sha256": "4c4c50d932a8574cf4d4b309e90a3bbdd54d260574fc98b408e3f2a242ac763c"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_multitask_mp.yaml",
+      "path": "source/maniflow/config/task/metaworld_multitask_mp.yaml",
+      "source_sha256": "71edd7b9014d43ecf867c4c6fe15969f1e1f2867565277a466310f58f13c4a36",
+      "sha256": "71edd7b9014d43ecf867c4c6fe15969f1e1f2867565277a466310f58f13c4a36"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_peg-insert-side.yaml",
+      "path": "source/maniflow/config/task/metaworld_peg-insert-side.yaml",
+      "source_sha256": "47fab55a6d2672c6517bc383c160dac6cbd2082d937cd4c037f37a3e9d3f2f4d",
+      "sha256": "47fab55a6d2672c6517bc383c160dac6cbd2082d937cd4c037f37a3e9d3f2f4d"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_peg-unplug-side.yaml",
+      "path": "source/maniflow/config/task/metaworld_peg-unplug-side.yaml",
+      "source_sha256": "8486eb7d62c898ced6a72b132b22d1795c20bd2c25d399471d44cb7a63a503c6",
+      "sha256": "8486eb7d62c898ced6a72b132b22d1795c20bd2c25d399471d44cb7a63a503c6"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_pick-out-of-hole.yaml",
+      "path": "source/maniflow/config/task/metaworld_pick-out-of-hole.yaml",
+      "source_sha256": "674c015771417912db89fc09425dbb106b5e3e571d7dc1ab511407b3c363b4ab",
+      "sha256": "674c015771417912db89fc09425dbb106b5e3e571d7dc1ab511407b3c363b4ab"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_pick-place-wall.yaml",
+      "path": "source/maniflow/config/task/metaworld_pick-place-wall.yaml",
+      "source_sha256": "fe92d72986905b06924407f27121b6dd6941ec32be28642d7c71f2995718ec15",
+      "sha256": "fe92d72986905b06924407f27121b6dd6941ec32be28642d7c71f2995718ec15"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_pick-place.yaml",
+      "path": "source/maniflow/config/task/metaworld_pick-place.yaml",
+      "source_sha256": "172f905b6260949697de14f00b7ff3ba3e9b021e80c7fde9357d84f12150f911",
+      "sha256": "172f905b6260949697de14f00b7ff3ba3e9b021e80c7fde9357d84f12150f911"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_plate-slide-back-side.yaml",
+      "path": "source/maniflow/config/task/metaworld_plate-slide-back-side.yaml",
+      "source_sha256": "a4f627fac4381739e6867f0a163d9816cd6602000a4b711c6f9da2d35de469b0",
+      "sha256": "a4f627fac4381739e6867f0a163d9816cd6602000a4b711c6f9da2d35de469b0"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_plate-slide-back.yaml",
+      "path": "source/maniflow/config/task/metaworld_plate-slide-back.yaml",
+      "source_sha256": "c8010a99e6401095f8f25ad72bf69b158b8ce5cbce9e49fc3db39af116bd2b6d",
+      "sha256": "c8010a99e6401095f8f25ad72bf69b158b8ce5cbce9e49fc3db39af116bd2b6d"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_plate-slide-side.yaml",
+      "path": "source/maniflow/config/task/metaworld_plate-slide-side.yaml",
+      "source_sha256": "41cc22daddc216d3725e7fc83e353b90160247d42bdda548b0c08fa734798c97",
+      "sha256": "41cc22daddc216d3725e7fc83e353b90160247d42bdda548b0c08fa734798c97"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_plate-slide.yaml",
+      "path": "source/maniflow/config/task/metaworld_plate-slide.yaml",
+      "source_sha256": "d6b21ce36ace2aebc4e73ce0532740c5c821e5229241fa28241d34ba942eccd1",
+      "sha256": "d6b21ce36ace2aebc4e73ce0532740c5c821e5229241fa28241d34ba942eccd1"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_push-back.yaml",
+      "path": "source/maniflow/config/task/metaworld_push-back.yaml",
+      "source_sha256": "50ff461513109230d5f4db20bdc893bf8120a8068a431aea4ba723495281d9bb",
+      "sha256": "50ff461513109230d5f4db20bdc893bf8120a8068a431aea4ba723495281d9bb"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_push-wall.yaml",
+      "path": "source/maniflow/config/task/metaworld_push-wall.yaml",
+      "source_sha256": "0140ad9a96260beab8cb14131d7cf9217162c1ff15e4fce31f02b54518a73e9b",
+      "sha256": "0140ad9a96260beab8cb14131d7cf9217162c1ff15e4fce31f02b54518a73e9b"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_push.yaml",
+      "path": "source/maniflow/config/task/metaworld_push.yaml",
+      "source_sha256": "045fde9d193050e78b782ebb0b8a72c626914cacd7fb88a593574eacd47b1b48",
+      "sha256": "045fde9d193050e78b782ebb0b8a72c626914cacd7fb88a593574eacd47b1b48"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_reach-wall.yaml",
+      "path": "source/maniflow/config/task/metaworld_reach-wall.yaml",
+      "source_sha256": "265c20cf3364024eaadaa8dad46da29a2bca42d1d538caed328bb43b3332bc8d",
+      "sha256": "265c20cf3364024eaadaa8dad46da29a2bca42d1d538caed328bb43b3332bc8d"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_reach.yaml",
+      "path": "source/maniflow/config/task/metaworld_reach.yaml",
+      "source_sha256": "2861d2623d25ca419f6e863c623ecc5f6e7f7a1cfd182ccde3b2dc7ed2d666e5",
+      "sha256": "2861d2623d25ca419f6e863c623ecc5f6e7f7a1cfd182ccde3b2dc7ed2d666e5"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_shelf-place.yaml",
+      "path": "source/maniflow/config/task/metaworld_shelf-place.yaml",
+      "source_sha256": "94c4b1b4c11428385fe65fd24106dd04ef21b3a7138e13406d5dd5836a4c81b5",
+      "sha256": "94c4b1b4c11428385fe65fd24106dd04ef21b3a7138e13406d5dd5836a4c81b5"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_soccer.yaml",
+      "path": "source/maniflow/config/task/metaworld_soccer.yaml",
+      "source_sha256": "186a6389e789da338d74ecb5524605f14c0331fb02249a4fc0576926251aaabf",
+      "sha256": "186a6389e789da338d74ecb5524605f14c0331fb02249a4fc0576926251aaabf"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_stick-pull.yaml",
+      "path": "source/maniflow/config/task/metaworld_stick-pull.yaml",
+      "source_sha256": "d28b8c9a807fcd8281b3d24538cf1234717d4330b5002247a8056253a0733c47",
+      "sha256": "d28b8c9a807fcd8281b3d24538cf1234717d4330b5002247a8056253a0733c47"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_stick-push.yaml",
+      "path": "source/maniflow/config/task/metaworld_stick-push.yaml",
+      "source_sha256": "b59aad68ce39120045be5af9e401a38d6d1b3ada8fb838ffa4bf358159e8365e",
+      "sha256": "b59aad68ce39120045be5af9e401a38d6d1b3ada8fb838ffa4bf358159e8365e"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_sweep-into.yaml",
+      "path": "source/maniflow/config/task/metaworld_sweep-into.yaml",
+      "source_sha256": "7acfe0872ce8874f0eb42d12054e51353fbc6ea3b4e67af9e6a77f68af9306bc",
+      "sha256": "7acfe0872ce8874f0eb42d12054e51353fbc6ea3b4e67af9e6a77f68af9306bc"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_sweep.yaml",
+      "path": "source/maniflow/config/task/metaworld_sweep.yaml",
+      "source_sha256": "6386c7aebfa5b5ef569fc5e73144a5baa243323741ac9dfe4c0254d94928f657",
+      "sha256": "6386c7aebfa5b5ef569fc5e73144a5baa243323741ac9dfe4c0254d94928f657"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_window-close.yaml",
+      "path": "source/maniflow/config/task/metaworld_window-close.yaml",
+      "source_sha256": "303b6c08814099a37e735e313ca132a8642fd184f16240a1a1ff922fe0a8f073",
+      "sha256": "303b6c08814099a37e735e313ca132a8642fd184f16240a1a1ff922fe0a8f073"
+    },
+    {
+      "source": "ManiFlow/maniflow/config/task/metaworld_window-open.yaml",
+      "path": "source/maniflow/config/task/metaworld_window-open.yaml",
+      "source_sha256": "15b232ee301578133013ea6740d20cb0fb396c8060867f7780df22feec31258c",
+      "sha256": "15b232ee301578133013ea6740d20cb0fb396c8060867f7780df22feec31258c"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/common/dict_of_tensor_mixin.py",
+      "path": "source/maniflow/model/common/dict_of_tensor_mixin.py",
+      "source_sha256": "158b63a244bcfb9aa377206730f5f59778c6aeb9138ff55c76d2c28ec46952d1",
+      "sha256": "158b63a244bcfb9aa377206730f5f59778c6aeb9138ff55c76d2c28ec46952d1"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/common/lr_scheduler.py",
+      "path": "source/maniflow/model/common/lr_scheduler.py",
+      "source_sha256": "feb9453856bfd1ee10b1faba6c64814e071c5e70174398daf3bfcd8d430c80db",
+      "sha256": "feb9453856bfd1ee10b1faba6c64814e071c5e70174398daf3bfcd8d430c80db"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/common/module_attr_mixin.py",
+      "path": "source/maniflow/model/common/module_attr_mixin.py",
+      "source_sha256": "658dececa20f7628960fc1a8db89e4be3693e1bba47f63d1ff8a4faa2d481e45",
+      "sha256": "658dececa20f7628960fc1a8db89e4be3693e1bba47f63d1ff8a4faa2d481e45"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/common/normalizer.py",
+      "path": "source/maniflow/model/common/normalizer.py",
+      "source_sha256": "fd81c4711c5408b2fd34407d8e7731652ac47d2fa1f93f7add4996e03c80be74",
+      "sha256": "fd81c4711c5408b2fd34407d8e7731652ac47d2fa1f93f7add4996e03c80be74"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/common/sample_util.py",
+      "path": "source/maniflow/model/common/sample_util.py",
+      "source_sha256": "68f5b88900d8616b87ae8ccd62d8ea7b1cdd50bdc7a3628aa389fcb01ac668dd",
+      "sha256": "68f5b88900d8616b87ae8ccd62d8ea7b1cdd50bdc7a3628aa389fcb01ac668dd"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/common/shape_util.py",
+      "path": "source/maniflow/model/common/shape_util.py",
+      "source_sha256": "0143d9c5cddb7f47f9db017d74aa415c39e19148e5f960dd7129dd172ebbcbca",
+      "sha256": "0143d9c5cddb7f47f9db017d74aa415c39e19148e5f960dd7129dd172ebbcbca"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/common/tensor_util.py",
+      "path": "source/maniflow/model/common/tensor_util.py",
+      "source_sha256": "751b042aa5390ddf1f5b6220a465dfa20dbb9304e3c057f04512d6ee55f4e1b1",
+      "sha256": "751b042aa5390ddf1f5b6220a465dfa20dbb9304e3c057f04512d6ee55f4e1b1"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/diffusion/conditional_unet1d.py",
+      "path": "source/maniflow/model/diffusion/conditional_unet1d.py",
+      "source_sha256": "61b79c921c88bf8b398a295ee8eb69e27d8548275f790c8276ae72c4c349b15f",
+      "sha256": "61b79c921c88bf8b398a295ee8eb69e27d8548275f790c8276ae72c4c349b15f"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/diffusion/conv1d_components.py",
+      "path": "source/maniflow/model/diffusion/conv1d_components.py",
+      "source_sha256": "63915e5483ac81bcf4fdac19028db2b20957a4d7742e34b7e1957b610dc38281",
+      "sha256": "63915e5483ac81bcf4fdac19028db2b20957a4d7742e34b7e1957b610dc38281"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/diffusion/ditx.py",
+      "path": "source/maniflow/model/diffusion/ditx.py",
+      "source_sha256": "43ea8d5e4ddf07db147710261b3593808b8e3c0a6d3a0a56966512e94270d1e9",
+      "sha256": "43ea8d5e4ddf07db147710261b3593808b8e3c0a6d3a0a56966512e94270d1e9"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/diffusion/ditx_block.py",
+      "path": "source/maniflow/model/diffusion/ditx_block.py",
+      "source_sha256": "563d6bb927d0f2a1b82bcda95ae9ffb2b2dba0d66bded5f832d8b00ce69721b6",
+      "sha256": "563d6bb927d0f2a1b82bcda95ae9ffb2b2dba0d66bded5f832d8b00ce69721b6"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/diffusion/ema_model.py",
+      "path": "source/maniflow/model/diffusion/ema_model.py",
+      "source_sha256": "f683be124722abe0703e2cf003566ab2d446783383cdcd5202063e20148ae467",
+      "sha256": "f683be124722abe0703e2cf003566ab2d446783383cdcd5202063e20148ae467"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/diffusion/ensemble.py",
+      "path": "source/maniflow/model/diffusion/ensemble.py",
+      "source_sha256": "5ad5e2b77078fe4e6caa7e4fd2a083b5e5f3a6d16239bd351d29507ccf529358",
+      "sha256": "5ad5e2b77078fe4e6caa7e4fd2a083b5e5f3a6d16239bd351d29507ccf529358"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/diffusion/mask_generator.py",
+      "path": "source/maniflow/model/diffusion/mask_generator.py",
+      "source_sha256": "53a480b0b1d3626219e8839ef90222fe71891fc89b6576e3b1728ed6e4be9120",
+      "sha256": "53a480b0b1d3626219e8839ef90222fe71891fc89b6576e3b1728ed6e4be9120"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/diffusion/positional_embedding.py",
+      "path": "source/maniflow/model/diffusion/positional_embedding.py",
+      "source_sha256": "2266c75ecc9c9ac8ca126839d39a7bafbdd7af8800d6de903f66815e64cc366c",
+      "sha256": "2266c75ecc9c9ac8ca126839d39a7bafbdd7af8800d6de903f66815e64cc366c"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/vision_2d/crop_randomizer.py",
+      "path": "source/maniflow/model/vision_2d/crop_randomizer.py",
+      "source_sha256": "cb9133505ca4731adf368f4ae6ff0f1ad20f075534d4c6fb60caa478b95dead0",
+      "sha256": "cb9133505ca4731adf368f4ae6ff0f1ad20f075534d4c6fb60caa478b95dead0"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/vision_2d/model_getter.py",
+      "path": "source/maniflow/model/vision_2d/model_getter.py",
+      "source_sha256": "fd3f827d2974871deac8bb3ff9d6ee0416bc63d1ccbe56f7ce2319904e95243d",
+      "sha256": "fd3f827d2974871deac8bb3ff9d6ee0416bc63d1ccbe56f7ce2319904e95243d"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/vision_2d/multi_image_obs_encoder.py",
+      "path": "source/maniflow/model/vision_2d/multi_image_obs_encoder.py",
+      "source_sha256": "4c1cd3ea1ce638700260b4a48e6d0b975d630436d7f03c53910dc2ceaad5bd27",
+      "sha256": "4c1cd3ea1ce638700260b4a48e6d0b975d630436d7f03c53910dc2ceaad5bd27"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/vision_2d/timm_obs_encoder.py",
+      "path": "source/maniflow/model/vision_2d/timm_obs_encoder.py",
+      "source_sha256": "7b4defdb7051025209303621ad5f33a76b6e2c4f7424a475f583b5828926abe0",
+      "sha256": "7b4defdb7051025209303621ad5f33a76b6e2c4f7424a475f583b5828926abe0"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/vision_2d/transformer_obs_encoder.py",
+      "path": "source/maniflow/model/vision_2d/transformer_obs_encoder.py",
+      "source_sha256": "eaa484abb9809904dc4c85f18fc517e3d1a0d1c2a5d68fbda445b0a0d7509e73",
+      "sha256": "eaa484abb9809904dc4c85f18fc517e3d1a0d1c2a5d68fbda445b0a0d7509e73"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/vision_3d/point_process.py",
+      "path": "source/maniflow/model/vision_3d/point_process.py",
+      "source_sha256": "0e8fe634e9ebfe0f57266e657c3005fedf18d29b26a1eb3f5a5fb9fcc5baf983",
+      "sha256": "0e8fe634e9ebfe0f57266e657c3005fedf18d29b26a1eb3f5a5fb9fcc5baf983"
+    },
+    {
+      "source": "ManiFlow/maniflow/model/vision_3d/pointnet_extractor.py",
+      "path": "source/maniflow/model/vision_3d/pointnet_extractor.py",
+      "source_sha256": "6ad74da64716bde6c227f1f651ca5feab9882161ab1fdd86476a8eed40657518",
+      "sha256": "6ad74da64716bde6c227f1f651ca5feab9882161ab1fdd86476a8eed40657518"
+    },
+    {
+      "source": "ManiFlow/maniflow/policy/base_policy.py",
+      "path": "source/maniflow/policy/base_policy.py",
+      "source_sha256": "1d3e257984382b8f31b405e7757929149a1e31094385d45f1b4622ef35007253",
+      "sha256": "1d3e257984382b8f31b405e7757929149a1e31094385d45f1b4622ef35007253"
+    },
+    {
+      "source": "ManiFlow/maniflow/policy/diffusion_image_policy.py",
+      "path": "source/maniflow/policy/diffusion_image_policy.py",
+      "source_sha256": "db20563f6a879157752f3b714cc821ab04381a00bc7137c95df3477e25bc8df2",
+      "sha256": "db20563f6a879157752f3b714cc821ab04381a00bc7137c95df3477e25bc8df2"
+    },
+    {
+      "source": "ManiFlow/maniflow/policy/dp3.py",
+      "path": "source/maniflow/policy/dp3.py",
+      "source_sha256": "cdae45773aa534820f4bc3b8361d9188ee7e9d00abd6adcb180ae1c3e3b5a55e",
+      "sha256": "cdae45773aa534820f4bc3b8361d9188ee7e9d00abd6adcb180ae1c3e3b5a55e"
+    },
+    {
+      "source": "ManiFlow/maniflow/policy/maniflow_image_policy.py",
+      "path": "source/maniflow/policy/maniflow_image_policy.py",
+      "source_sha256": "fe21cda24b9382d65eedbdf43c41bb5dd76bce2420dc65855dde57000f8d8c24",
+      "sha256": "fe21cda24b9382d65eedbdf43c41bb5dd76bce2420dc65855dde57000f8d8c24"
+    },
+    {
+      "source": "ManiFlow/maniflow/policy/maniflow_pointcloud_policy.py",
+      "path": "source/maniflow/policy/maniflow_pointcloud_policy.py",
+      "source_sha256": "4f183215a49e44d8a0009db4c1bc317a4c508c0bb4ba4b0586df1e14f90b0432",
+      "sha256": "4f183215a49e44d8a0009db4c1bc317a4c508c0bb4ba4b0586df1e14f90b0432"
+    }
+  ]
+}

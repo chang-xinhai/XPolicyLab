@@ -1,0 +1,211 @@
+{
+  "repository": "https://github.com/YanjieZe/Improved-3D-Diffusion-Policy.git",
+  "commit": "f5b27faabbb8952672dd3d6a21d0ba762d5dfabb",
+  "transform": "Import namespace diffusion_policy_3d -> xpl_idp3 only",
+  "files": [
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/common/checkpoint_util.py",
+      "path": "source/xpl_idp3/common/checkpoint_util.py",
+      "source_sha256": "2640d4ceda252ee926b13b9ce6c828e5df2e36a9d36637a6a80a7bbe11dab543",
+      "sha256": "2640d4ceda252ee926b13b9ce6c828e5df2e36a9d36637a6a80a7bbe11dab543"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/common/gr1_action_util.py",
+      "path": "source/xpl_idp3/common/gr1_action_util.py",
+      "source_sha256": "866f36190da537c5c22b1b70c3486d3015aae0a45741e05e7ddfc6abfcc136e9",
+      "sha256": "2fd3152102c2610ac8d1a6ee2b4e3d30be505a183a2e45eb29dffef039a8ac94"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/common/json_logger.py",
+      "path": "source/xpl_idp3/common/json_logger.py",
+      "source_sha256": "0678a15375ec22d85bf2deb499c1c3369aae885f35e214a884bf6bac7655d9ff",
+      "sha256": "0678a15375ec22d85bf2deb499c1c3369aae885f35e214a884bf6bac7655d9ff"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/common/logger_util.py",
+      "path": "source/xpl_idp3/common/logger_util.py",
+      "source_sha256": "c4a138f304da5266a7e090c92d46b4900d4b10a9f93d82bbf68173d2856e5b7c",
+      "sha256": "c4a138f304da5266a7e090c92d46b4900d4b10a9f93d82bbf68173d2856e5b7c"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/common/model_util.py",
+      "path": "source/xpl_idp3/common/model_util.py",
+      "source_sha256": "e997a00347b077dfa13cbd6c1839b40be339a5b84f933af06bfa94e79aecc743",
+      "sha256": "e997a00347b077dfa13cbd6c1839b40be339a5b84f933af06bfa94e79aecc743"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/common/multi_realsense.py",
+      "path": "source/xpl_idp3/common/multi_realsense.py",
+      "source_sha256": "380e9b00a4d5b74b164b8f0f5c7e640cd2243dea9d570ce3767c6c4c72aab7c2",
+      "sha256": "380e9b00a4d5b74b164b8f0f5c7e640cd2243dea9d570ce3767c6c4c72aab7c2"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/common/pytorch_util.py",
+      "path": "source/xpl_idp3/common/pytorch_util.py",
+      "source_sha256": "96ce50e191b4c837532529040af65d2b9a1f433f33a5187f8cf256b62d84b6b4",
+      "sha256": "96ce50e191b4c837532529040af65d2b9a1f433f33a5187f8cf256b62d84b6b4"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/common/replay_buffer.py",
+      "path": "source/xpl_idp3/common/replay_buffer.py",
+      "source_sha256": "ae37b4babf9cfe57fc05bdea5443b8e80953152b24c0d4019d0634a9f93808a0",
+      "sha256": "ae37b4babf9cfe57fc05bdea5443b8e80953152b24c0d4019d0634a9f93808a0"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/common/rotation_util.py",
+      "path": "source/xpl_idp3/common/rotation_util.py",
+      "source_sha256": "51a90aa103648b25da12fca30c02394c3492b06fcf2e9d798a3be917965e5388",
+      "sha256": "51a90aa103648b25da12fca30c02394c3492b06fcf2e9d798a3be917965e5388"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/common/sampler.py",
+      "path": "source/xpl_idp3/common/sampler.py",
+      "source_sha256": "d4fe8ae49089ada412bdbc3185e22faa5d58da86ea76b69cff8bdb2cd7b159ef",
+      "sha256": "3db2d9727a024068de7a2d6a31fc12947f4262e864687eb2e39dc95ad7b1fe38"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/config/dp_224x224_r3m.yaml",
+      "path": "source/xpl_idp3/config/dp_224x224_r3m.yaml",
+      "source_sha256": "2d5f260865df8fb0684b5a1bc26fe2a296668fcd5018dfda5da23887ee290236",
+      "sha256": "0537386b655b7133064d87aaf2c8a9f81b817354ac5078b4640524818fb5ca58"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/config/idp3.yaml",
+      "path": "source/xpl_idp3/config/idp3.yaml",
+      "source_sha256": "75688ea527b45851064046bc3a72d97b8b3f4b6a02dda46f84bb728c42b5e139",
+      "sha256": "5c148a1fce8d161a0872b5757131d8f56166048cf5665b8aeff05ac189918538"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/config/task/gr1_dex-3d.yaml",
+      "path": "source/xpl_idp3/config/task/gr1_dex-3d.yaml",
+      "source_sha256": "f02eecdd32f5b7c8b85386ab945e6d4f6e3a74e4bd5fc3bba65b9c48c6e755ac",
+      "sha256": "a9c01ada2e4af55c1afea7fd69df509525e7b7573c0e96f4d30ab810f0a51f79"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/config/task/gr1_dex-image.yaml",
+      "path": "source/xpl_idp3/config/task/gr1_dex-image.yaml",
+      "source_sha256": "d1fedf632881d35762597c68e0b1c8167e71d91bc39f7908b84788dbeab3526e",
+      "sha256": "f01403cbe54d741ac99e6a5e101a46d50720f9d866ab64f3076d0d5a6087e61f"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/common/dict_of_tensor_mixin.py",
+      "path": "source/xpl_idp3/model/common/dict_of_tensor_mixin.py",
+      "source_sha256": "158b63a244bcfb9aa377206730f5f59778c6aeb9138ff55c76d2c28ec46952d1",
+      "sha256": "158b63a244bcfb9aa377206730f5f59778c6aeb9138ff55c76d2c28ec46952d1"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/common/lr_scheduler.py",
+      "path": "source/xpl_idp3/model/common/lr_scheduler.py",
+      "source_sha256": "feb9453856bfd1ee10b1faba6c64814e071c5e70174398daf3bfcd8d430c80db",
+      "sha256": "feb9453856bfd1ee10b1faba6c64814e071c5e70174398daf3bfcd8d430c80db"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/common/module_attr_mixin.py",
+      "path": "source/xpl_idp3/model/common/module_attr_mixin.py",
+      "source_sha256": "658dececa20f7628960fc1a8db89e4be3693e1bba47f63d1ff8a4faa2d481e45",
+      "sha256": "658dececa20f7628960fc1a8db89e4be3693e1bba47f63d1ff8a4faa2d481e45"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/common/normalizer.py",
+      "path": "source/xpl_idp3/model/common/normalizer.py",
+      "source_sha256": "066f59a579d880a60f77ad1e6371be4f48f61d538d922d94c3e1967cbb45875a",
+      "sha256": "bf773529224ff7770097017d37f456721a4d1c3271140c2ab0d92ba5cd9b103e"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/common/shape_util.py",
+      "path": "source/xpl_idp3/model/common/shape_util.py",
+      "source_sha256": "0143d9c5cddb7f47f9db017d74aa415c39e19148e5f960dd7129dd172ebbcbca",
+      "sha256": "0143d9c5cddb7f47f9db017d74aa415c39e19148e5f960dd7129dd172ebbcbca"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/common/tensor_util.py",
+      "path": "source/xpl_idp3/model/common/tensor_util.py",
+      "source_sha256": "751b042aa5390ddf1f5b6220a465dfa20dbb9304e3c057f04512d6ee55f4e1b1",
+      "sha256": "751b042aa5390ddf1f5b6220a465dfa20dbb9304e3c057f04512d6ee55f4e1b1"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+      "path": "source/xpl_idp3/model/diffusion/conditional_unet1d.py",
+      "source_sha256": "a5f58a998f38f027aaaa92e1085b1fee99abd51d4f6479d0ffecef3b1228ec12",
+      "sha256": "bbe2a7a74513ed0b156b5388393efc42502237cb8777ec7228c687576079c1d9"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conv1d_components.py",
+      "path": "source/xpl_idp3/model/diffusion/conv1d_components.py",
+      "source_sha256": "ea2aa10e297cf253bc1a1919ba47fe6ae32049b5eaaab292ed9cc145d8d2adc0",
+      "sha256": "ea2aa10e297cf253bc1a1919ba47fe6ae32049b5eaaab292ed9cc145d8d2adc0"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/ema_model.py",
+      "path": "source/xpl_idp3/model/diffusion/ema_model.py",
+      "source_sha256": "f683be124722abe0703e2cf003566ab2d446783383cdcd5202063e20148ae467",
+      "sha256": "f683be124722abe0703e2cf003566ab2d446783383cdcd5202063e20148ae467"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/mask_generator.py",
+      "path": "source/xpl_idp3/model/diffusion/mask_generator.py",
+      "source_sha256": "380ae1ce136a794d9ec6b74352898b29274423bb9fb38b3e4e8f13b971eda44a",
+      "sha256": "8af9a297fdd716bee6ccd43e961b654212b3b9052c0dabbd7eabf8656fd6baca"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/positional_embedding.py",
+      "path": "source/xpl_idp3/model/diffusion/positional_embedding.py",
+      "source_sha256": "2266c75ecc9c9ac8ca126839d39a7bafbdd7af8800d6de903f66815e64cc366c",
+      "sha256": "2266c75ecc9c9ac8ca126839d39a7bafbdd7af8800d6de903f66815e64cc366c"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/vision/crop_randomizer.py",
+      "path": "source/xpl_idp3/model/vision/crop_randomizer.py",
+      "source_sha256": "705528657a3ff56b55b92cb8bd4228e68f78102ff719bc6a962b1aadd0be1bb8",
+      "sha256": "9a0ab3d23af6418725c00d4828902106879550030c4920b8171ba76c1ab895ec"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/vision/model_getter.py",
+      "path": "source/xpl_idp3/model/vision/model_getter.py",
+      "source_sha256": "1040afebde10070f68e658a00241e8190bfa152e353c1d20675375e2d7e6dd30",
+      "sha256": "1040afebde10070f68e658a00241e8190bfa152e353c1d20675375e2d7e6dd30"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/vision/timm_obs_encoder.py",
+      "path": "source/xpl_idp3/model/vision/timm_obs_encoder.py",
+      "source_sha256": "da12c4b21b8c2362583327ba7a521740b4bc3efedf6d551492cbdd29a798865a",
+      "sha256": "d50d5656ed5ad4bba1f13af1d394d4f50bf7fecebbff0bbf802868cad0a49592"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/vision_3d/multi_stage_pointnet.py",
+      "path": "source/xpl_idp3/model/vision_3d/multi_stage_pointnet.py",
+      "source_sha256": "1136b8e28471d8866c2c327d3b4efbbf4b3d5f4c2adbaab6d567ea73c4b5504d",
+      "sha256": "1136b8e28471d8866c2c327d3b4efbbf4b3d5f4c2adbaab6d567ea73c4b5504d"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/vision_3d/point_process.py",
+      "path": "source/xpl_idp3/model/vision_3d/point_process.py",
+      "source_sha256": "3565c712c185c95efd685a7f2219b691e93b8f897dc0ab026d9b1466e8850d4f",
+      "sha256": "3565c712c185c95efd685a7f2219b691e93b8f897dc0ab026d9b1466e8850d4f"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/model/vision_3d/pointnet_extractor.py",
+      "path": "source/xpl_idp3/model/vision_3d/pointnet_extractor.py",
+      "source_sha256": "c6521830ff7caaa62e1535e6ea89c7c11f6249659a60178a94bafc0013cb3a2e",
+      "sha256": "8a59a714ec613cbddd26fbd900338cc165bf84379ac0e6eab80b28dc7ee537dd"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/policy/base_policy.py",
+      "path": "source/xpl_idp3/policy/base_policy.py",
+      "source_sha256": "a2e611049426128f7d775d2b7ae1df8540006ed90d348939846a5fcec671cd4f",
+      "sha256": "e1fe0ca714e7f0624f149a8a00f169daa09622eb13b8be47eb59b967e9875cda"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/policy/diffusion_image_policy.py",
+      "path": "source/xpl_idp3/policy/diffusion_image_policy.py",
+      "source_sha256": "53c525566b35b8cbd8558a66e2ffd7459215dfd756950ec5c196df63a60f1bea",
+      "sha256": "d344eae79a6916fc814512d9438401f60f767796c01a230def9e68ccb86a47ef"
+    },
+    {
+      "source": "Improved-3D-Diffusion-Policy/diffusion_policy_3d/policy/diffusion_pointcloud_policy.py",
+      "path": "source/xpl_idp3/policy/diffusion_pointcloud_policy.py",
+      "source_sha256": "7946d4e5a9ef985c3ce047bf8fbbaeb60287d9c550dd3b9eb227b8e5071b4210",
+      "sha256": "b55f6de9d982f669544f10232ac58378b1eea36dd323839de04391a8ee391c83"
+    }
+  ]
+}

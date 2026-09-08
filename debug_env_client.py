@@ -117,6 +117,10 @@ class TestEnv:
             "env_idx": env_idx
         }
 
+        if os.environ.get("DEBUG_RGBD") == "1":
+            for camera in demo_obs["vision"].values():
+                camera["depth"] = np.full((480, 640), 0.5, dtype=np.float32)
+
         state = demo_obs.setdefault("state", {})
 
         arm_dims = self.robot_action_dim_info["arm_dim"]

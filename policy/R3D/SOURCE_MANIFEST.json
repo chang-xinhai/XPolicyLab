@@ -1,0 +1,571 @@
+{
+  "repository": "https://github.com/Wushr-Lance/R3D-Policy.git",
+  "commit": "e637c0148376ddc4b5e667fa8f8e108cb8ff7a85",
+  "transform": "none",
+  "files": [
+    {
+      "source": "R3D/r3d/common/checkpoint_util.py",
+      "path": "source/r3d/common/checkpoint_util.py",
+      "source_sha256": "2640d4ceda252ee926b13b9ce6c828e5df2e36a9d36637a6a80a7bbe11dab543",
+      "sha256": "2640d4ceda252ee926b13b9ce6c828e5df2e36a9d36637a6a80a7bbe11dab543"
+    },
+    {
+      "source": "R3D/r3d/common/logger_util.py",
+      "path": "source/r3d/common/logger_util.py",
+      "source_sha256": "730d8d7f6a628aab68a740ea3ac0ad3fe0314bdd1227d2216676502f87e4165d",
+      "sha256": "730d8d7f6a628aab68a740ea3ac0ad3fe0314bdd1227d2216676502f87e4165d"
+    },
+    {
+      "source": "R3D/r3d/common/model_util.py",
+      "path": "source/r3d/common/model_util.py",
+      "source_sha256": "a73b43a3fa99e613f053ef41f20c04ec906a2d0fa812fade36118d75db7e6da3",
+      "sha256": "a73b43a3fa99e613f053ef41f20c04ec906a2d0fa812fade36118d75db7e6da3"
+    },
+    {
+      "source": "R3D/r3d/common/pytorch_util.py",
+      "path": "source/r3d/common/pytorch_util.py",
+      "source_sha256": "c07f0e870ef5fee7e602c3de6b2f3891e4d9d9503cbf1ce18853d3686fbe6473",
+      "sha256": "c07f0e870ef5fee7e602c3de6b2f3891e4d9d9503cbf1ce18853d3686fbe6473"
+    },
+    {
+      "source": "R3D/r3d/common/replay_buffer.py",
+      "path": "source/r3d/common/replay_buffer.py",
+      "source_sha256": "745b41b99425a3eb9dc242893c00d9144f1767bc805fa57c4b8f215a4a56a61e",
+      "sha256": "745b41b99425a3eb9dc242893c00d9144f1767bc805fa57c4b8f215a4a56a61e"
+    },
+    {
+      "source": "R3D/r3d/common/sampler.py",
+      "path": "source/r3d/common/sampler.py",
+      "source_sha256": "b7d4ab338b757ac9f920c661004623b77099ce9b1a9a3a50cecfacdf4405c1c1",
+      "sha256": "b7d4ab338b757ac9f920c661004623b77099ce9b1a9a3a50cecfacdf4405c1c1"
+    },
+    {
+      "source": "R3D/r3d/config/dp3.yaml",
+      "path": "source/r3d/config/dp3.yaml",
+      "source_sha256": "95ab3df89d0666eb06a5295f85e1957ec9fc4faa24ceb8c3e051d30ace015556",
+      "sha256": "95ab3df89d0666eb06a5295f85e1957ec9fc4faa24ceb8c3e051d30ace015556"
+    },
+    {
+      "source": "R3D/r3d/config/dp3_robotwin2.yaml",
+      "path": "source/r3d/config/dp3_robotwin2.yaml",
+      "source_sha256": "0b3e115a04f1ff81111bfaea3d9a54e4f916250500830f9296635041e422e1b6",
+      "sha256": "0b3e115a04f1ff81111bfaea3d9a54e4f916250500830f9296635041e422e1b6"
+    },
+    {
+      "source": "R3D/r3d/config/r3d_maniskill.yaml",
+      "path": "source/r3d/config/r3d_maniskill.yaml",
+      "source_sha256": "c180c5b33f81e7ced814f9a32214bcab2dc653062373a8b2bc2a1234e4b9aff6",
+      "sha256": "c180c5b33f81e7ced814f9a32214bcab2dc653062373a8b2bc2a1234e4b9aff6"
+    },
+    {
+      "source": "R3D/r3d/config/r3d_robotwin2.yaml",
+      "path": "source/r3d/config/r3d_robotwin2.yaml",
+      "source_sha256": "cb8a1e16c1db4e1a7f7c54c5ed8bea273ec4f0eea69865b82ae55473f69324a0",
+      "sha256": "cb8a1e16c1db4e1a7f7c54c5ed8bea273ec4f0eea69865b82ae55473f69324a0"
+    },
+    {
+      "source": "R3D/r3d/config/r3d_robotwin2_multitask.yaml",
+      "path": "source/r3d/config/r3d_robotwin2_multitask.yaml",
+      "source_sha256": "b1105b6b3b104a93efbadba447d196eeca695ed91933ec7af8ab47bdc1c6cbb6",
+      "sha256": "b1105b6b3b104a93efbadba447d196eeca695ed91933ec7af8ab47bdc1c6cbb6"
+    },
+    {
+      "source": "R3D/r3d/config/simple_dp3.yaml",
+      "path": "source/r3d/config/simple_dp3.yaml",
+      "source_sha256": "63cd83803b9ebf7e77dd7ae00577d475f306a5bcbf4f2e9f8ed1dd72634b8005",
+      "sha256": "63cd83803b9ebf7e77dd7ae00577d475f306a5bcbf4f2e9f8ed1dd72634b8005"
+    },
+    {
+      "source": "R3D/r3d/config/task/adroit_door.yaml",
+      "path": "source/r3d/config/task/adroit_door.yaml",
+      "source_sha256": "467889e563dc0ecfed0df80d0a15ceeea4020e1293f90779870cd5f5af4f51b8",
+      "sha256": "467889e563dc0ecfed0df80d0a15ceeea4020e1293f90779870cd5f5af4f51b8"
+    },
+    {
+      "source": "R3D/r3d/config/task/adroit_hammer.yaml",
+      "path": "source/r3d/config/task/adroit_hammer.yaml",
+      "source_sha256": "3db3c34a7ac8801db97b79b0665d77d3499b915375673fe2e5fab175e68fecc1",
+      "sha256": "3db3c34a7ac8801db97b79b0665d77d3499b915375673fe2e5fab175e68fecc1"
+    },
+    {
+      "source": "R3D/r3d/config/task/adroit_pen.yaml",
+      "path": "source/r3d/config/task/adroit_pen.yaml",
+      "source_sha256": "657ca7dad31d9776882360b25f3cae5259fb4848c08975fcac312838219cd7ce",
+      "sha256": "657ca7dad31d9776882360b25f3cae5259fb4848c08975fcac312838219cd7ce"
+    },
+    {
+      "source": "R3D/r3d/config/task/dexart_bucket.yaml",
+      "path": "source/r3d/config/task/dexart_bucket.yaml",
+      "source_sha256": "7659ba7b919ac16f66d016e76dafa3891d24c995af23790feb101c3327419813",
+      "sha256": "7659ba7b919ac16f66d016e76dafa3891d24c995af23790feb101c3327419813"
+    },
+    {
+      "source": "R3D/r3d/config/task/dexart_faucet.yaml",
+      "path": "source/r3d/config/task/dexart_faucet.yaml",
+      "source_sha256": "f62ca250805f57232a903ec84c52bacd7ee9c63be52aed81c16727df4d490c50",
+      "sha256": "f62ca250805f57232a903ec84c52bacd7ee9c63be52aed81c16727df4d490c50"
+    },
+    {
+      "source": "R3D/r3d/config/task/dexart_laptop.yaml",
+      "path": "source/r3d/config/task/dexart_laptop.yaml",
+      "source_sha256": "ede944ec1dfc11db97f0e16d1f8314279565715cd4f3d9c265103de893b055d1",
+      "sha256": "ede944ec1dfc11db97f0e16d1f8314279565715cd4f3d9c265103de893b055d1"
+    },
+    {
+      "source": "R3D/r3d/config/task/dexart_toilet.yaml",
+      "path": "source/r3d/config/task/dexart_toilet.yaml",
+      "source_sha256": "8e56f1eb1d6b16a0d739bcc6efc7ba2de924a79f1e69e74e03a5fc7979201616",
+      "sha256": "8e56f1eb1d6b16a0d739bcc6efc7ba2de924a79f1e69e74e03a5fc7979201616"
+    },
+    {
+      "source": "R3D/r3d/config/task/maniskill_PegInsertionSide.yaml",
+      "path": "source/r3d/config/task/maniskill_PegInsertionSide.yaml",
+      "source_sha256": "84fae9098066d3b57d62ad71653444c85f5eee51794e58db45217e556e7e61ff",
+      "sha256": "84fae9098066d3b57d62ad71653444c85f5eee51794e58db45217e556e7e61ff"
+    },
+    {
+      "source": "R3D/r3d/config/task/maniskill_PickCube.yaml",
+      "path": "source/r3d/config/task/maniskill_PickCube.yaml",
+      "source_sha256": "459c7d593f54b97473babf0e14c4962168dcd19c317aee1d753121c005e46fbe",
+      "sha256": "459c7d593f54b97473babf0e14c4962168dcd19c317aee1d753121c005e46fbe"
+    },
+    {
+      "source": "R3D/r3d/config/task/maniskill_StackCube.yaml",
+      "path": "source/r3d/config/task/maniskill_StackCube.yaml",
+      "source_sha256": "655aafb7d5dc92f24053aabee8872877a8ea243803028b6ba6213ce60456144b",
+      "sha256": "655aafb7d5dc92f24053aabee8872877a8ea243803028b6ba6213ce60456144b"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_assembly.yaml",
+      "path": "source/r3d/config/task/metaworld_assembly.yaml",
+      "source_sha256": "37172386855d0b8d3d14f472cb3ee6a28f9dee34a25259f02cc093bb9eecb112",
+      "sha256": "37172386855d0b8d3d14f472cb3ee6a28f9dee34a25259f02cc093bb9eecb112"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_basketball.yaml",
+      "path": "source/r3d/config/task/metaworld_basketball.yaml",
+      "source_sha256": "47f94930a436da8172071bb4578ad90afa6e933a480e48c29775ff505cbb86a2",
+      "sha256": "47f94930a436da8172071bb4578ad90afa6e933a480e48c29775ff505cbb86a2"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_bin-picking.yaml",
+      "path": "source/r3d/config/task/metaworld_bin-picking.yaml",
+      "source_sha256": "acda5e7d11a60514db9bec03d108b3ee41664aa3770f85209f1470877369e63f",
+      "sha256": "acda5e7d11a60514db9bec03d108b3ee41664aa3770f85209f1470877369e63f"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_box-close.yaml",
+      "path": "source/r3d/config/task/metaworld_box-close.yaml",
+      "source_sha256": "3aa939fea459dc891bb8a0af6b8a2907d487dfb4a7d11e70045904c22e6a3fde",
+      "sha256": "3aa939fea459dc891bb8a0af6b8a2907d487dfb4a7d11e70045904c22e6a3fde"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_button-press-topdown-wall.yaml",
+      "path": "source/r3d/config/task/metaworld_button-press-topdown-wall.yaml",
+      "source_sha256": "8c01546913017f2884ffe6a7eb24e752719f9e98b714d408532ec4689b9a3e7a",
+      "sha256": "8c01546913017f2884ffe6a7eb24e752719f9e98b714d408532ec4689b9a3e7a"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_button-press-topdown.yaml",
+      "path": "source/r3d/config/task/metaworld_button-press-topdown.yaml",
+      "source_sha256": "419cc7c672578dae7c03fdaf3ff85db8feb971bc39399d9095ac520dd017e055",
+      "sha256": "419cc7c672578dae7c03fdaf3ff85db8feb971bc39399d9095ac520dd017e055"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_button-press-wall.yaml",
+      "path": "source/r3d/config/task/metaworld_button-press-wall.yaml",
+      "source_sha256": "0c1571c1e835970579a9fc3b3ebc791d15951a816624ac012c833014e47557fa",
+      "sha256": "0c1571c1e835970579a9fc3b3ebc791d15951a816624ac012c833014e47557fa"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_button-press.yaml",
+      "path": "source/r3d/config/task/metaworld_button-press.yaml",
+      "source_sha256": "98720ef8495afd168a9759e9b93ef997d87c17a072c703f3a1964bed20656dec",
+      "sha256": "98720ef8495afd168a9759e9b93ef997d87c17a072c703f3a1964bed20656dec"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_coffee-button.yaml",
+      "path": "source/r3d/config/task/metaworld_coffee-button.yaml",
+      "source_sha256": "e865b9aa398812f02de3b45b6daaf04d4404e21e82781e7d226db77146d5137e",
+      "sha256": "e865b9aa398812f02de3b45b6daaf04d4404e21e82781e7d226db77146d5137e"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_coffee-pull.yaml",
+      "path": "source/r3d/config/task/metaworld_coffee-pull.yaml",
+      "source_sha256": "9a69dfeafbf0c85175c2be6521db24c7608c0ca60feeec6cd564aeab40ee99e0",
+      "sha256": "9a69dfeafbf0c85175c2be6521db24c7608c0ca60feeec6cd564aeab40ee99e0"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_coffee-push.yaml",
+      "path": "source/r3d/config/task/metaworld_coffee-push.yaml",
+      "source_sha256": "5c1dbae8fcfa0584d0d2e55e7862c5e09e9988202778f232703f8c77d3cdb667",
+      "sha256": "5c1dbae8fcfa0584d0d2e55e7862c5e09e9988202778f232703f8c77d3cdb667"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_dial-turn.yaml",
+      "path": "source/r3d/config/task/metaworld_dial-turn.yaml",
+      "source_sha256": "527acdd4373e7c2ae486dd2916c0bad3a1bd4bc46df2fa9fad804452cc7e45d1",
+      "sha256": "527acdd4373e7c2ae486dd2916c0bad3a1bd4bc46df2fa9fad804452cc7e45d1"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_disassemble.yaml",
+      "path": "source/r3d/config/task/metaworld_disassemble.yaml",
+      "source_sha256": "ba69f01047037275d5b9a39b8008d0bf8f93ae3a9904766b15cb9f433e7795ba",
+      "sha256": "ba69f01047037275d5b9a39b8008d0bf8f93ae3a9904766b15cb9f433e7795ba"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_door-close.yaml",
+      "path": "source/r3d/config/task/metaworld_door-close.yaml",
+      "source_sha256": "d3fac6f14ac4ebb7f32fa5b30a71367858f25317e66106526d3ab9e8e6c9ad48",
+      "sha256": "d3fac6f14ac4ebb7f32fa5b30a71367858f25317e66106526d3ab9e8e6c9ad48"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_door-lock.yaml",
+      "path": "source/r3d/config/task/metaworld_door-lock.yaml",
+      "source_sha256": "ea075b886a0a6cf0b76c70879efc4ee59d95001bf84957c82fedc7e34c43c3ae",
+      "sha256": "ea075b886a0a6cf0b76c70879efc4ee59d95001bf84957c82fedc7e34c43c3ae"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_door-open.yaml",
+      "path": "source/r3d/config/task/metaworld_door-open.yaml",
+      "source_sha256": "8a4fcd605355bdc7ed719d667d7949d4a3b221e92b8f412ff1863845b838dcf0",
+      "sha256": "8a4fcd605355bdc7ed719d667d7949d4a3b221e92b8f412ff1863845b838dcf0"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_door-unlock.yaml",
+      "path": "source/r3d/config/task/metaworld_door-unlock.yaml",
+      "source_sha256": "bbe61d536d2647327c6c849ed02190ea75b1ed5363962c4fa169cf8a81b8b038",
+      "sha256": "bbe61d536d2647327c6c849ed02190ea75b1ed5363962c4fa169cf8a81b8b038"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_drawer-close.yaml",
+      "path": "source/r3d/config/task/metaworld_drawer-close.yaml",
+      "source_sha256": "0c32ffc3dcc1b9c966c5d2b50ff6f0913256d4d4357d25a8c1ce7dcc0d3cfc81",
+      "sha256": "0c32ffc3dcc1b9c966c5d2b50ff6f0913256d4d4357d25a8c1ce7dcc0d3cfc81"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_drawer-open.yaml",
+      "path": "source/r3d/config/task/metaworld_drawer-open.yaml",
+      "source_sha256": "d52f8a2e240ddd8fe8475807af14eeeab7843d47e61828ee88a4483953474910",
+      "sha256": "d52f8a2e240ddd8fe8475807af14eeeab7843d47e61828ee88a4483953474910"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_faucet-close.yaml",
+      "path": "source/r3d/config/task/metaworld_faucet-close.yaml",
+      "source_sha256": "04ddfa5dfedc91f1670ed8657ab55e26810b2f877ce63b09a7ef4a338f7c9860",
+      "sha256": "04ddfa5dfedc91f1670ed8657ab55e26810b2f877ce63b09a7ef4a338f7c9860"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_faucet-open.yaml",
+      "path": "source/r3d/config/task/metaworld_faucet-open.yaml",
+      "source_sha256": "771d7a10441d05c38290011de95b46ad2df041c0c4678a1c824e9c917ad8ae8a",
+      "sha256": "771d7a10441d05c38290011de95b46ad2df041c0c4678a1c824e9c917ad8ae8a"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_hammer.yaml",
+      "path": "source/r3d/config/task/metaworld_hammer.yaml",
+      "source_sha256": "98e44f2471ecad604b3e8be86d22928555a26478f746c3b1a49763b5eca19c6a",
+      "sha256": "98e44f2471ecad604b3e8be86d22928555a26478f746c3b1a49763b5eca19c6a"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_hand-insert.yaml",
+      "path": "source/r3d/config/task/metaworld_hand-insert.yaml",
+      "source_sha256": "055233c89caaf51c49ef34b524618c21df6f7ac81893a81b54c7a52cd238b6a5",
+      "sha256": "055233c89caaf51c49ef34b524618c21df6f7ac81893a81b54c7a52cd238b6a5"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_handle-press-side.yaml",
+      "path": "source/r3d/config/task/metaworld_handle-press-side.yaml",
+      "source_sha256": "a851f8e1b9563dffadefe79c48264e01be273d97bfed45ff5aa01226abab955f",
+      "sha256": "a851f8e1b9563dffadefe79c48264e01be273d97bfed45ff5aa01226abab955f"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_handle-press.yaml",
+      "path": "source/r3d/config/task/metaworld_handle-press.yaml",
+      "source_sha256": "468198b826309c0c6883ecb8ad478008fe91b9f059429cc945c55329b19418bf",
+      "sha256": "468198b826309c0c6883ecb8ad478008fe91b9f059429cc945c55329b19418bf"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_handle-pull-side.yaml",
+      "path": "source/r3d/config/task/metaworld_handle-pull-side.yaml",
+      "source_sha256": "0b4e4e10af6bdef1e650073fa71e42a2b67fa086d4cfe187c1c3395e67c40440",
+      "sha256": "0b4e4e10af6bdef1e650073fa71e42a2b67fa086d4cfe187c1c3395e67c40440"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_handle-pull.yaml",
+      "path": "source/r3d/config/task/metaworld_handle-pull.yaml",
+      "source_sha256": "7e72910e2e1ffe898f66b71e9a759316cbc47bf40f0e048daddb90ba61c3b7fd",
+      "sha256": "7e72910e2e1ffe898f66b71e9a759316cbc47bf40f0e048daddb90ba61c3b7fd"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_lever-pull.yaml",
+      "path": "source/r3d/config/task/metaworld_lever-pull.yaml",
+      "source_sha256": "a3396b2d6887474f68f553a88ddda6a68e55ec2aa3119b90d1031a2415fd97c6",
+      "sha256": "a3396b2d6887474f68f553a88ddda6a68e55ec2aa3119b90d1031a2415fd97c6"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_peg-insert-side.yaml",
+      "path": "source/r3d/config/task/metaworld_peg-insert-side.yaml",
+      "source_sha256": "41d31885a8518a3f6e684f3bc0e22f83358e8df2b8a4e3fa41b258163fafa056",
+      "sha256": "41d31885a8518a3f6e684f3bc0e22f83358e8df2b8a4e3fa41b258163fafa056"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_peg-unplug-side.yaml",
+      "path": "source/r3d/config/task/metaworld_peg-unplug-side.yaml",
+      "source_sha256": "25e9c7dedfb82dca69ef6a96c17df04493ed063b4634ac112c8c8be741311ef9",
+      "sha256": "25e9c7dedfb82dca69ef6a96c17df04493ed063b4634ac112c8c8be741311ef9"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_pick-out-of-hole.yaml",
+      "path": "source/r3d/config/task/metaworld_pick-out-of-hole.yaml",
+      "source_sha256": "eedd2b3d4c64b3e4fa86a16fda47121242ac8275ed4c611d1075401dfa207a26",
+      "sha256": "eedd2b3d4c64b3e4fa86a16fda47121242ac8275ed4c611d1075401dfa207a26"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_pick-place-wall.yaml",
+      "path": "source/r3d/config/task/metaworld_pick-place-wall.yaml",
+      "source_sha256": "673c513ac3ea392c2610a209206b62b84234639563038e3b4a102505f449b38d",
+      "sha256": "673c513ac3ea392c2610a209206b62b84234639563038e3b4a102505f449b38d"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_pick-place.yaml",
+      "path": "source/r3d/config/task/metaworld_pick-place.yaml",
+      "source_sha256": "12a9c2e1335f1256693467b67af9820ebbd1d3602c6101053ef84554d53b6018",
+      "sha256": "12a9c2e1335f1256693467b67af9820ebbd1d3602c6101053ef84554d53b6018"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_plate-slide-back-side.yaml",
+      "path": "source/r3d/config/task/metaworld_plate-slide-back-side.yaml",
+      "source_sha256": "8c063b1428cba2cc440b72c78ca1b955e60e445f38ed4dbd49f363032087b1ce",
+      "sha256": "8c063b1428cba2cc440b72c78ca1b955e60e445f38ed4dbd49f363032087b1ce"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_plate-slide-back.yaml",
+      "path": "source/r3d/config/task/metaworld_plate-slide-back.yaml",
+      "source_sha256": "06324020b05351eadda3f2f72281a34b38ba213836696295555f43455bf06b08",
+      "sha256": "06324020b05351eadda3f2f72281a34b38ba213836696295555f43455bf06b08"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_plate-slide-side.yaml",
+      "path": "source/r3d/config/task/metaworld_plate-slide-side.yaml",
+      "source_sha256": "0b6d664f9f63d3bf703a907a509226a619a30989af80193c21002c83a590dbb2",
+      "sha256": "0b6d664f9f63d3bf703a907a509226a619a30989af80193c21002c83a590dbb2"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_plate-slide.yaml",
+      "path": "source/r3d/config/task/metaworld_plate-slide.yaml",
+      "source_sha256": "6263f70b0c51d06241009a60c230a2acec0c9bdf842daaf8b065837cafd98dc4",
+      "sha256": "6263f70b0c51d06241009a60c230a2acec0c9bdf842daaf8b065837cafd98dc4"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_push-back.yaml",
+      "path": "source/r3d/config/task/metaworld_push-back.yaml",
+      "source_sha256": "f81050cd4e88c6d4ede72da2288b328c1b4b41e2859832c387b3892b332c2153",
+      "sha256": "f81050cd4e88c6d4ede72da2288b328c1b4b41e2859832c387b3892b332c2153"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_push-wall.yaml",
+      "path": "source/r3d/config/task/metaworld_push-wall.yaml",
+      "source_sha256": "0d0fae828bc449504b31ac28eb525b19ca69c573687a22cb5fc6b69ea7b32957",
+      "sha256": "0d0fae828bc449504b31ac28eb525b19ca69c573687a22cb5fc6b69ea7b32957"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_push.yaml",
+      "path": "source/r3d/config/task/metaworld_push.yaml",
+      "source_sha256": "164a43e807eeb015a5cbc7029c0bf89f2a57a88b2fa17337c4db6b102afc11d0",
+      "sha256": "164a43e807eeb015a5cbc7029c0bf89f2a57a88b2fa17337c4db6b102afc11d0"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_reach-wall.yaml",
+      "path": "source/r3d/config/task/metaworld_reach-wall.yaml",
+      "source_sha256": "0bbf442b9fa3e0e97e51d1cc296c5ab2ad8cc4444f3518ab6e4b7ae7d6d92366",
+      "sha256": "0bbf442b9fa3e0e97e51d1cc296c5ab2ad8cc4444f3518ab6e4b7ae7d6d92366"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_reach.yaml",
+      "path": "source/r3d/config/task/metaworld_reach.yaml",
+      "source_sha256": "1bff73e2e698a5cb5d896230df30bb586f1c538b4acfe2f3ba63d4f9574d1afe",
+      "sha256": "1bff73e2e698a5cb5d896230df30bb586f1c538b4acfe2f3ba63d4f9574d1afe"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_shelf-place.yaml",
+      "path": "source/r3d/config/task/metaworld_shelf-place.yaml",
+      "source_sha256": "2cbd25c9f2d1229582914ade15bd74a51d148701177d00aa99a9c201468b198e",
+      "sha256": "2cbd25c9f2d1229582914ade15bd74a51d148701177d00aa99a9c201468b198e"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_soccer.yaml",
+      "path": "source/r3d/config/task/metaworld_soccer.yaml",
+      "source_sha256": "14db7064e16bbda5b3bd2fc258df3f33af34f48863c1d75d46d3e29bb482698e",
+      "sha256": "14db7064e16bbda5b3bd2fc258df3f33af34f48863c1d75d46d3e29bb482698e"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_stick-pull.yaml",
+      "path": "source/r3d/config/task/metaworld_stick-pull.yaml",
+      "source_sha256": "c3c07197b8bd11d29289e33c137e0d1f3f2556c0f5463d11a55070ce811c657c",
+      "sha256": "c3c07197b8bd11d29289e33c137e0d1f3f2556c0f5463d11a55070ce811c657c"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_stick-push.yaml",
+      "path": "source/r3d/config/task/metaworld_stick-push.yaml",
+      "source_sha256": "56873e060a1aab8d10cddec7e0face52591a552b8dfd54e173c1b07e65946222",
+      "sha256": "56873e060a1aab8d10cddec7e0face52591a552b8dfd54e173c1b07e65946222"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_sweep-into.yaml",
+      "path": "source/r3d/config/task/metaworld_sweep-into.yaml",
+      "source_sha256": "6374b0ad3f5393e2743a4a6c9d58b48043383ba0eaa2aabe46fb26ee0454c006",
+      "sha256": "6374b0ad3f5393e2743a4a6c9d58b48043383ba0eaa2aabe46fb26ee0454c006"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_sweep.yaml",
+      "path": "source/r3d/config/task/metaworld_sweep.yaml",
+      "source_sha256": "f681e06e2ebf0aacbc77807779cae19b252b073c68546ffac2997a67101432f2",
+      "sha256": "f681e06e2ebf0aacbc77807779cae19b252b073c68546ffac2997a67101432f2"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_window-close.yaml",
+      "path": "source/r3d/config/task/metaworld_window-close.yaml",
+      "source_sha256": "8eb55fb9e12d55e61af0d6f7e38bfec7d2f664ad83bb00fe83d0ce5dfa9434a8",
+      "sha256": "8eb55fb9e12d55e61af0d6f7e38bfec7d2f664ad83bb00fe83d0ce5dfa9434a8"
+    },
+    {
+      "source": "R3D/r3d/config/task/metaworld_window-open.yaml",
+      "path": "source/r3d/config/task/metaworld_window-open.yaml",
+      "source_sha256": "9e243e340a60541a02d8b04bcc2a03c6b681997030275611f5841d9b26428dc0",
+      "sha256": "9e243e340a60541a02d8b04bcc2a03c6b681997030275611f5841d9b26428dc0"
+    },
+    {
+      "source": "R3D/r3d/config/task/realdex_drill.yaml",
+      "path": "source/r3d/config/task/realdex_drill.yaml",
+      "source_sha256": "892e4936b76c90dd10639125bab840be6ea79beca82cea3eefddeb88d0e0655c",
+      "sha256": "892e4936b76c90dd10639125bab840be6ea79beca82cea3eefddeb88d0e0655c"
+    },
+    {
+      "source": "R3D/r3d/config/task/realdex_dumpling.yaml",
+      "path": "source/r3d/config/task/realdex_dumpling.yaml",
+      "source_sha256": "f5e0856ad511b85e7075f86af2fc956c79084482cff26225bcefa6060100135e",
+      "sha256": "f5e0856ad511b85e7075f86af2fc956c79084482cff26225bcefa6060100135e"
+    },
+    {
+      "source": "R3D/r3d/config/task/realdex_pour.yaml",
+      "path": "source/r3d/config/task/realdex_pour.yaml",
+      "source_sha256": "3db8d55259a4d71c13bf442b8be1777e2a69f7d35a6731bc6010c3348fb7ba39",
+      "sha256": "3db8d55259a4d71c13bf442b8be1777e2a69f7d35a6731bc6010c3348fb7ba39"
+    },
+    {
+      "source": "R3D/r3d/config/task/realdex_roll.yaml",
+      "path": "source/r3d/config/task/realdex_roll.yaml",
+      "source_sha256": "f1b715bec16fb585c9444f087206c235dc2b61c31b7930b1766e206dde4ad88b",
+      "sha256": "f1b715bec16fb585c9444f087206c235dc2b61c31b7930b1766e206dde4ad88b"
+    },
+    {
+      "source": "R3D/r3d/config/task/robotwin2_demo_task.yaml",
+      "path": "source/r3d/config/task/robotwin2_demo_task.yaml",
+      "source_sha256": "23811bb4334f8c037baafdb2a1c12be3def69b438821c8589262eb41c9ca085f",
+      "sha256": "23811bb4334f8c037baafdb2a1c12be3def69b438821c8589262eb41c9ca085f"
+    },
+    {
+      "source": "R3D/r3d/config/task/robotwin2_multitask.yaml",
+      "path": "source/r3d/config/task/robotwin2_multitask.yaml",
+      "source_sha256": "429d249cb25e35e1c9dd31c81c64d71fc424087144c1fdf2b70887d1f303fc8b",
+      "sha256": "429d249cb25e35e1c9dd31c81c64d71fc424087144c1fdf2b70887d1f303fc8b"
+    },
+    {
+      "source": "R3D/r3d/model/common/dict_of_tensor_mixin.py",
+      "path": "source/r3d/model/common/dict_of_tensor_mixin.py",
+      "source_sha256": "158b63a244bcfb9aa377206730f5f59778c6aeb9138ff55c76d2c28ec46952d1",
+      "sha256": "158b63a244bcfb9aa377206730f5f59778c6aeb9138ff55c76d2c28ec46952d1"
+    },
+    {
+      "source": "R3D/r3d/model/common/lr_scheduler.py",
+      "path": "source/r3d/model/common/lr_scheduler.py",
+      "source_sha256": "feb9453856bfd1ee10b1faba6c64814e071c5e70174398daf3bfcd8d430c80db",
+      "sha256": "feb9453856bfd1ee10b1faba6c64814e071c5e70174398daf3bfcd8d430c80db"
+    },
+    {
+      "source": "R3D/r3d/model/common/module_attr_mixin.py",
+      "path": "source/r3d/model/common/module_attr_mixin.py",
+      "source_sha256": "658dececa20f7628960fc1a8db89e4be3693e1bba47f63d1ff8a4faa2d481e45",
+      "sha256": "658dececa20f7628960fc1a8db89e4be3693e1bba47f63d1ff8a4faa2d481e45"
+    },
+    {
+      "source": "R3D/r3d/model/common/normalizer.py",
+      "path": "source/r3d/model/common/normalizer.py",
+      "source_sha256": "56cf4ac0856cf0463ce386fa4e9b5573f8ee16f7b0c3e1cad9171372f5fc8d34",
+      "sha256": "56cf4ac0856cf0463ce386fa4e9b5573f8ee16f7b0c3e1cad9171372f5fc8d34"
+    },
+    {
+      "source": "R3D/r3d/model/common/shape_util.py",
+      "path": "source/r3d/model/common/shape_util.py",
+      "source_sha256": "0143d9c5cddb7f47f9db017d74aa415c39e19148e5f960dd7129dd172ebbcbca",
+      "sha256": "0143d9c5cddb7f47f9db017d74aa415c39e19148e5f960dd7129dd172ebbcbca"
+    },
+    {
+      "source": "R3D/r3d/model/common/tensor_util.py",
+      "path": "source/r3d/model/common/tensor_util.py",
+      "source_sha256": "751b042aa5390ddf1f5b6220a465dfa20dbb9304e3c057f04512d6ee55f4e1b1",
+      "sha256": "751b042aa5390ddf1f5b6220a465dfa20dbb9304e3c057f04512d6ee55f4e1b1"
+    },
+    {
+      "source": "R3D/r3d/model/diffusion/conv1d_components.py",
+      "path": "source/r3d/model/diffusion/conv1d_components.py",
+      "source_sha256": "ea2aa10e297cf253bc1a1919ba47fe6ae32049b5eaaab292ed9cc145d8d2adc0",
+      "sha256": "ea2aa10e297cf253bc1a1919ba47fe6ae32049b5eaaab292ed9cc145d8d2adc0"
+    },
+    {
+      "source": "R3D/r3d/model/diffusion/diffusion_backbone.py",
+      "path": "source/r3d/model/diffusion/diffusion_backbone.py",
+      "source_sha256": "a7b1fec72443859dbd9419435d340440b437d318440e1ce550f0f923b1c34993",
+      "sha256": "a7b1fec72443859dbd9419435d340440b437d318440e1ce550f0f923b1c34993"
+    },
+    {
+      "source": "R3D/r3d/model/diffusion/ema_model.py",
+      "path": "source/r3d/model/diffusion/ema_model.py",
+      "source_sha256": "7dc3bf054aac16fcd5730b479c15d351b5a6176ae4543c0685ce603600efe773",
+      "sha256": "7dc3bf054aac16fcd5730b479c15d351b5a6176ae4543c0685ce603600efe773"
+    },
+    {
+      "source": "R3D/r3d/model/diffusion/mask_generator.py",
+      "path": "source/r3d/model/diffusion/mask_generator.py",
+      "source_sha256": "2897e95aac6735ecd7893b666a2cbf74361dae8e990115b37c99576d9c41faa2",
+      "sha256": "2897e95aac6735ecd7893b666a2cbf74361dae8e990115b37c99576d9c41faa2"
+    },
+    {
+      "source": "R3D/r3d/model/diffusion/positional_embedding.py",
+      "path": "source/r3d/model/diffusion/positional_embedding.py",
+      "source_sha256": "2266c75ecc9c9ac8ca126839d39a7bafbdd7af8800d6de903f66815e64cc366c",
+      "sha256": "2266c75ecc9c9ac8ca126839d39a7bafbdd7af8800d6de903f66815e64cc366c"
+    },
+    {
+      "source": "R3D/r3d/model/diffusion/simple_conditional_unet1d.py",
+      "path": "source/r3d/model/diffusion/simple_conditional_unet1d.py",
+      "source_sha256": "f30782d06a72439f2c51d981d8513a9d271d82d3805959179498a2db8cf78549",
+      "sha256": "f30782d06a72439f2c51d981d8513a9d271d82d3805959179498a2db8cf78549"
+    },
+    {
+      "source": "R3D/r3d/model/vision/pointnet_extractor.py",
+      "path": "source/r3d/model/vision/pointnet_extractor.py",
+      "source_sha256": "ca377a6df2ef7605073a8cfd40222da9b995f39baef9c5db54aa6ad21902e273",
+      "sha256": "ca377a6df2ef7605073a8cfd40222da9b995f39baef9c5db54aa6ad21902e273"
+    },
+    {
+      "source": "R3D/r3d/policy/base_policy.py",
+      "path": "source/r3d/policy/base_policy.py",
+      "source_sha256": "853c36f7dc87b02f30ea5864369fbedbe745e65faa0cfaac8aa78ecbc6470836",
+      "sha256": "853c36f7dc87b02f30ea5864369fbedbe745e65faa0cfaac8aa78ecbc6470836"
+    },
+    {
+      "source": "R3D/r3d/policy/dp3.py",
+      "path": "source/r3d/policy/dp3.py",
+      "source_sha256": "e9e472480dc45e00276471e8cced840bb1f9815d0d124ac91950c7d63c6ac767",
+      "sha256": "e9e472480dc45e00276471e8cced840bb1f9815d0d124ac91950c7d63c6ac767"
+    },
+    {
+      "source": "R3D/r3d/policy/simple_dp3.py",
+      "path": "source/r3d/policy/simple_dp3.py",
+      "source_sha256": "bc523ef543ba993ab019bb139e5f8958669cfb8f2a55f1a1725f41a10bd9f0aa",
+      "sha256": "bc523ef543ba993ab019bb139e5f8958669cfb8f2a55f1a1725f41a10bd9f0aa"
+    }
+  ]
+}
