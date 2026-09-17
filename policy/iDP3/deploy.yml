@@ -1,4 +1,4 @@
-policy_name: demo_policy
+policy_name: iDP3
 protocol: ws
 host: localhost
 port: null

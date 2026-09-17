@@ -38,11 +38,11 @@ def config(
     *,
     action_dim: int,
     state_dim: int,
-    num_points: int = 1024,
+    num_points: int | None = None,
     channels: int = 3,
     horizon: int = 16,
     n_obs_steps: int = 2,
-    n_action_steps: int = 6,
+    n_action_steps: int | None = None,
     pretrained_path: str | None = None,
 ):
     if pretrained_path is not None and not (Path(pretrained_path) / "model.safetensors").is_file():
@@ -50,6 +50,10 @@ def config(
     package = activate(name)
     source = Path(__file__).resolve().parents[1] / name / "source"
     cfg = OmegaConf.load(source / package / "config" / POLICIES[name][1])
+    if num_points is None:
+        num_points = int(cfg.policy.pointcloud_encoder_cfg.num_points) if name == "iDP3" else 1024
+    if n_action_steps is None:
+        n_action_steps = int(cfg.n_action_steps) if name == "iDP3" else 6
     cfg.horizon, cfg.n_obs_steps, cfg.n_action_steps = horizon, n_obs_steps, n_action_steps
     cfg.shape_meta = {
         "action": {"shape": [action_dim]},
@@ -60,11 +64,13 @@ def config(
     }
     cfg.policy.shape_meta = cfg.shape_meta
     cfg.policy.use_pc_color = channels == 6
-    cfg.policy.num_inference_steps = 2 if name == "ManiFlow" else 16
+    if name != "iDP3":
+        cfg.policy.num_inference_steps = 2 if name == "ManiFlow" else 16
     if name == "iDP3":
         if channels != 3:
             raise ValueError("Upstream iDP3 multi-stage encoder supports XYZ only")
-        cfg.policy.point_downsample = False  # Input sampling belongs to the data contract.
+        # Preserve the official fallback. The dataset already samples to this
+        # count, so the model's equal-count sampling is an intentional no-op.
         cfg.policy.pointcloud_encoder_cfg.num_points = num_points
     elif name == "ManiFlow":
         cfg.policy.visual_cond_len = num_points
@@ -94,9 +100,14 @@ def build(name: str, policy_config):
 
 def normalizer(name: str, data: dict):
     package = activate(name)
-    cls = importlib.import_module(f"{package}.model.common.normalizer").LinearNormalizer
+    module = importlib.import_module(f"{package}.model.common.normalizer")
+    cls = module.LinearNormalizer
     result = cls()
-    result.fit(data=data, last_n_dims=1, mode="limits")
+    result.fit(data={"action": data["action"]} if name == "iDP3" else data,
+               last_n_dims=1, mode="limits")
+    if name == "iDP3":
+        for key in ("point_cloud", "agent_pos"):
+            result[key] = module.SingleFieldLinearNormalizer.create_identity()
     return result
 
 

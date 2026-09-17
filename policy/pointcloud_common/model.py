@@ -34,18 +34,24 @@ class PointCloudModel(ModelTemplate):
         shape = checkpoint["policy_config"]["shape_meta"]["obs"]["point_cloud"]["shape"]
         self.count, self.channels = shape
         contract = checkpoint.get("observation_contract")
+        from XPolicyLab.policy.iDP3.recipe import SAMPLING, validate_contract
+        self.idp3_sampling = self.policy_name == "iDP3" and contract and contract.get("sampling") == SAMPLING
         if (
             not contract
-            or contract.get("sampling") != "raster_uniform"
+            or (contract.get("sampling") != "raster_uniform" and not self.idp3_sampling)
             or contract.get("frame") != "camera_optical"
         ):
             raise ValueError("Checkpoint requires an explicit supported observation contract")
-        if [contract["num_points"], contract["channels"]] != list(shape):
+        if self.idp3_sampling:
+            validate_contract(contract)
+        expected_count = contract["model_num_points"] if self.idp3_sampling else contract["num_points"]
+        if [expected_count, contract["channels"]] != list(shape):
             raise ValueError("Checkpoint preprocessing/model shape mismatch")
         for key in ("camera", "depth_scale"):
             if key in self.cfg and self.cfg[key] != contract[key]:
                 raise ValueError(f"Deploy {key} differs from training preprocessing")
             self.cfg[key] = contract[key]
+        self.observation_contract = contract
         self.batch_size = get_batch_size(self.cfg["env_cfg_type"])
         self.histories = {}
         self.active = []
@@ -59,12 +65,14 @@ class PointCloudModel(ModelTemplate):
             idx = int(obs.get("env_idx", i))
             self.active.append(idx)
             camera = obs["vision"][self.cfg.get("camera", "cam_head")]
-            point = points(
-                camera,
-                count=self.count,
-                channels=self.channels,
-                depth_scale=float(self.cfg["depth_scale"]),
-            )
+            if self.idp3_sampling:
+                from XPolicyLab.policy.iDP3.recipe import camera_points
+                # Official live camera samples straight to 4096. Training's
+                # 10000-point storage pool must not be imposed on live input.
+                point = camera_points(camera, count=self.count, contract=self.observation_contract)
+            else:
+                point = points(camera, count=self.count, channels=self.channels,
+                               depth_scale=float(self.cfg["depth_scale"]))
             state = vector(obs["state"], self.layout)
             sample = {"point_cloud": point, "agent_pos": state}
             history = self.histories.setdefault(idx, deque(maxlen=self.model.n_obs_steps))
