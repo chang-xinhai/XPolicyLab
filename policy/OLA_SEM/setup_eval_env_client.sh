@@ -21,7 +21,7 @@ if [[ "${EVAL_ENV_TYPE:-sim}" == "debug" ]]; then
     source "$(conda info --base)/etc/profile.d/conda.sh"
     conda activate "${eval_env_conda_env}"
     export PYTHONPATH="${XPL_ROOT}:${WORKSPACE_ROOT}:${PYTHONPATH:-}"
-    python "${XPL_ROOT}/debug_env_client.py" \
+    python "${XPL_ROOT}/utils/debug_env_client.py" \
         --bench_name "${bench_name}" \
         --task_name "${task_name}" \
         --env_cfg_type "${env_cfg_type}" \

@@ -709,6 +709,25 @@ def convert_one(
 
     num_frames = state.shape[0]
 
+    # Every episode carries the full declared camera feature set, matching the
+    # v2.1 converter: a camera absent from the source is filled with black
+    # frames, and a camera shorter than the state sequence is corrupt data.
+    # Extra trailing frames are tolerated (only the first num_frames are used).
+    for camera_name in CAMERA_CANDIDATES:
+
+        image_array = images.get(camera_name)
+
+        if image_array is None:
+            images[camera_name] = np.zeros(
+                (num_frames, image_height, image_width, 3),
+                dtype=np.uint8,
+            )
+        elif len(image_array) < num_frames:
+            raise ValueError(
+                f"Camera '{camera_name}' has {len(image_array)} frames but the "
+                f"state sequence has {num_frames}"
+            )
+
     for index in range(num_frames):
 
         frame = {
@@ -718,10 +737,6 @@ def convert_one(
         }
 
         for image_name, image_array in images.items():
-
-            if index >= len(image_array):
-                continue
-
             frame[f"observation.images.{image_name}"] = image_array[index]
 
         dataset.add_frame(frame)
